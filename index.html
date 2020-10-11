@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>AEGuides</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="body-bg"> 
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" class="top-margin">
+            <div>
+                <img src="Images/Logo/AE_Logo.PNG" style="width:100%">
+            </div>
+            <div class="sidebar-header">
+                <h3>AEGuides</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#aePatchNotes">AE Patch Notes</a>
+                </li>
+                <li>
+                    <a href="#vipGrabBags">Vip Grab Bags</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="top-margin">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-dark">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="guides.html">Guides</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tradeskills.html">TradeSkills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="items.html">Items</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <h1>Welcome to AEGuides</h1>
+            <p></p>
+            <p></p>
+
+            <div class="line"></div>
+
+            <h2 id="aePatchNotes" class="anchor">Ashen Empires Patch Notes</h2>
+            <div class="body-line"></div>
+            <article>
+              <small class="article-date" >FujiQ 10/10/2020</small> <br>
+            A non content update here today - though look forward to new content in the next update! This was a big systems change - thank you for your patience. I'm sure there may be other things to iron out with 
+            alignment so please share that in the bugs channel.
+            <strong>===Item/Drops===</strong>
+            <ul>
+              <li>Alignment now being used for player, NPC, name colors and town status rather than faction. Faction quests still available using old rules; faction no longer should limit who you can party, attack, or heal.
+                  If something is amiss def let us know. It was a lot of work and we're glad to move on with life. Town takeovers still work.
+              </li>
+              <li>
+                Hooks to turn off various features (quests, factions, etc) for server variations
+              </li>
+              <li>
+                Creatures now spawning in a wider radius around you; there will be more creatures in the world now at any given time so we will be monitoring server performance but if you notice UNUSUAL latency please give us a heads up.
+                The original restriction was put in place to prevent server running hot. Now that we are in the year 2020, come what may! You will not have mobs spawning on top of you when you run into an inactive chunk.
+              </li>
+            </ul>
+            <strong>===Items===</strong>
+            <ul>
+              <li>
+                Ancient Sword of Agon has a new PVP special that has a small chance to proc
+              </li>
+              <li>
+                Blue Revenge, Minos Royale, Pit Fiend set orb requirements to equip changed to open it to more builds.
+              </li>
+              <li>
+                Arrow resist added to Thurman's Helm, Cloak of Flame, Mark of Minos amulet
+              </li>
+              <li>
+                Shield of Excellent resist stat adjustment (we had to do this for balance and future item progression)
+              </li>
+              <li>
+                Containers that cannot be placed in guild hall (any shelf/barrel etc) will now say why 
+              </li>
+              <li>
+                Only one artifact may be equipped at a time
+              </li>
+              <li>
+                Pirate ship now says No drop in tooltip
+              </li>
+              <li>
+                Fixed typo in Moss Spear's special message to the user
+              </li>
+              <li>
+                Added +int info to tooltip for Frozen Crystal Wand
+              </li>
+              <li>
+                Totem of Thunderstrike now gives message when effect wears off
+              </li>
+              <li>
+                Jeweled Anklet now counts as armor
+              </li>
+              <li>
+                A whle bunch of old gear (cloth gloves, etc) was marked as clothing but now marked as armor, organize away!
+              </li>
+              <li>
+                A lot of gear was not marked with an expansion and is now marked appropriately
+              </li>
+              <li>
+                Updated totem of wolf pup and wolf to not have a time; just resets the timer when clicked
+              </li>
+              <li>
+                Removed large military pickaxe from ettin drop table
+              </li>
+              <li>
+                New req on Minos Royale Cape and Pit Fiend Belt
+              </li>
+              <li>
+                Ring of Recuperation now marked as jewelry, should fit in Jewelry case
+              </li>
+              <li>
+                Fixed special message on Tyrian Staff Sling, Icehammer
+              </li>
+              <li>
+                Timers from Potion of Disease/Poison/Body resist now clear upon logout
+              </li>
+              <li>
+                Added stasis to applying bandages for PVP server only
+              </li>
+              <li>
+                Updated stats on Strand of Icicles, Platemail of Permafrost, Platemail leggings of Frostbite, and Frost Coated Stell Helmet
+              </li>
+              <li>
+                Savage's Necklace, Savage's War Necklace mismarked as armor
+              </li>
+              <li>
+                Essence of Ryonkah(shield) mismarked as jewelry
+              </li>
+              <li>
+                Set Knightcaster Helm to use different ppd model (not lord farquuad)
+              </li>
+              <li>
+                Brev's Measuring Cup fixed and no longer degrades on use
+              </li>
+              <li>
+                Lance of the Narwhale Horn now fits into weapons cabinet
+              </li>
+              <li>
+                Throwing nets can no longer be used on party members
+              </li>
+            </ul>
+            <strong>===NPCs===</strong>
+            <ul>
+              <li>
+                Ancient Giants speed adjusted down a tick
+              </li>
+              <li>
+                Added animation effect to Ancient Cyclops, Cold Giants, Carbonite Giants so you can distinguish them more easily
+              </li>
+              <li>
+                Added Ancient Giant category (now works with fate of the giant weapons and giant category for kill counts)
+              </li>
+              <li>
+                Ghost of Lotor I went to the chiro, got adjusted again. Sleeping better then ever.
+              </li>
+              <li>
+                Alton Carbon Zule invites you to lick his boots in his throne room
+              </li>
+              <li>
+                Icebane Coldstone is unpacked, got internet set up whants you to come over for his house warming party
+              </li>
+              <li>
+                High Priest of Kuthos back to walking type; was attacking boats. Will revisit him in next patch
+              </li>
+              <li>
+                Gave Neutral Faction Officer hit points
+              </li>
+              <li>
+                Upped spawn for Schlag the Scorpioness
+              </li>
+              <li>
+                Red Dragon Level now spawning creatures
+              </li>
+              <li>
+                Updated Caiman spawn near Rahura
+              </li>
+              <li>
+                The Criminals Hanvik, Tarvan, and Lonvia are now fixed; this is a legacy DC quest. If you find the criminals while they're in the world,
+                and kill them, you will receive a head that you can turn in for a bounty to Sir Vantic at Lotor's Jail (the guy who announces you have a
+                 visitor in the waiting room; get there from Lotor's Castle). There is a server message announcing when they spawn into the world. Bounty on their head is 
+                 10mil gold and 1 mil xp for Hanvik/Lonvia; 1 mil gold and 500k xp for Tarvan.
+              </li>
+              <li>
+                NPCs Conal, Lmbyr, and Alchemist Smithwitch are back open for business
+              </li>
+            </ul>
+            <strong>===Spells===</strong>
+            <ul>
+              <li>
+                Haste spell effect now clears upon logout
+              </li>
+              <li>
+                Adjusted carpentry output quantity to double at level 100
+              </li>
+              <li>
+                Using resurrect/raise the dead (and bandages) on a wanted player's corpse will ask for confirmation before you can proceed.
+              </li>              
+            </ul>
+            <strong>===Quests===</strong>
+            <ul>
+              <li>
+                Fix for Bograhk Dargarhk(Krog Melee Trainer quest line). If you have completed all 6 and he won't recognize your progress, try talking to him again.
+              </li>
+              <li>
+                Fixed bug with Lotorian/Chaos knights where you could turn in quest without being on the quest
+              </li>
+              <li>
+                Changed Cliff Brown quest(Vrethpool) to be in Krythan region rather than battle plains
+              </li>
+              <li>
+                Added count to Dawat Worker ghost quest (west of Dawat on road to abbey etc)
+              </li>
+              <li>
+                Fixed McFisto faction quest (was allowing anyone to skip to 11th stage of quest)
+              </li>
+              <li>
+                Fixed typo in Cindy McCabe quest of killing a crab
+              </li>
+              <li>
+                Marla Moculous quest now shows count of currently carried familiar wings in Quest Log
+              </li>
+              <li>
+                Suri Desert Scarab quest count now clears upon re-taking the quest (repeatable quest)
+              </li>              
+            </ul>
+            <strong>===The Junk Drawer===</strong>
+            <ul>
+              <li>
+                Party system fix for players with long names
+              </li>
+              <li>
+                Fixed corpse targeting bug
+              </li>
+              <li>
+                Removed tanning pots from potion table
+              </li>
+              <li>
+                Changed bandage heal formula
+              </li>
+              <li>
+                Fixed typo with "Jamoal the SAG ON" to "Jamoal the Sage in"
+              </li>
+              <li>
+                Kuthos Whirlpool back to chasing you around like a soul sucking bathtub nightmare machine, until I get time to make him patrol or something
+              </li>
+              <li>
+                Fixed newtown path to be a bit wider. Then I had to delete and replace a whole bunch of tiles again becasue one specific tile of dirt is not something that can be walked on ffs
+              </li>
+              <li>
+                Fixed 2x2 Guild Hall plot north of Jeel that was causing server crash when inspecting with surveyor's tools
+              </li>
+              <li>
+                Added music to Carbonite/cold giant cave
+              </li>
+            </ul>
+          </article>
+          <div class="body-line"></div>
+            <article>
+                <small class="article-date" >FujiQ 08/28/2020</small> <br>
+              A more visible post on Axe of Betrayal - it will be changed back to original req. That was done accidentally.
+            </article>
+            <div class="body-line"></div>
+            <article>
+                <small class="article-date" >FujiQ 08/27/2020</small> 
+              We have been busy with a few very large system changes that were tedious and not terribly interesting to mention; but basically, in order to get the game ready for a new server,
+              we had to rebalance all sub 100 weapons as well as retool all of those corresponding drop tables. Mobs will now typically drop items that reflect teir level more accurately.
+              Many weapons were removed from drop tables, though a majority of them can still be crafted. Drop rates for lower level mobs have increased (no more .03% chance to get a rapier of the cat).
+              Another system change was made to the way randomness was seeded (maybe Zarq will elaborate if you are to ask him...).
+              <br>
+              I would also like to announce that we will be officially RETIRING the Heilige Lance from drop tables. It is no longer dropping from any monster in game; therefore, if you have them, consider them to be 
+              a commodity which will not be coming back! Measuring cups have also been removed; an innocuous item that was useless, but hey, you can put them on your shelf and let them catch dust if you have them.
+              Look for future patches to retire and introduce gear to keep things interesting! And Finally...though many of your changes to date have been to clean up the game and the new Quest window and Leadership systems,
+              for all the 105+ players... hearken thine ears!!!
+              <br>
+              Zule has long awaited a chance to strike back at the many enemies that stalk his lair! Drawing on an ancient power found deep in the mine, he has trained a force of warriors to repel invaders that want to lay claim
+              to his treasure horde... 
+              <br>
+              Enjoy a new challenging adventure there and among other ToF giantkin... 
+              <br>
+              <strong>===Item/Drops===</strong>
+              <ul>
+                <li>Gloves and Cloak of Archmage now req level 50 (adjusted down)</li>
+                <li>Sandles of the fleet now req level 30 (adjusted down)</li>
+                <li>Updated Boots of the Traveller orbs stats and small speed boost</li>
+                <li>Adjusted mob drop tables for all sub 100 drops again to match mob level more closely</li>
+                <li>Updated stats on patron (city faction) gear</li>
+                <li>Added new magic tradeskill tool item/shield</li>
+                <li>Low level players (10+) have craftable set of leather, wool, or steel armor</li>
+                <li>Some helms were looking donk' on Female player models(Helm of Magma, et al) Corrected</li>
+                <li>Various weapon specials adjusted for balance</li>
+                <li>3 new high level gear sets</li>
+              </ul>
+              <strong>===Mobs===</strong>
+              <ul>
+                <li>A few bosses have been adjusted for difficulty</li>
+                <li>Plague toad adjust</li>
+                <li>Added termigon warriors to the Krythan termigon spawn</li>
+                <li>Adjusted Ettin Island</li>
+                <li>Fixed Horned Devel spawn in Tserith dungeon</li>
+                <li>Several generic NPC names fixed (no more bankers, merchants, etc) Maybe a few more lingering so if you see some out there in the world (esp NPCs that use a monster skin) Imk</li>
+                <li>Added skeletal mage to Undead creature category for DTM count</li>
+              </ul>
+              <strong>===Followers===</strong>
+              <ul>
+                <li>New Follower option: Assist Followers target what you target</li>
+                <li>If bas attribute is >=100, can tame creatures aligned with those orbs</li>
+                <li>Followers on Protect will start protecting after you get attacked (even if not damaged)</li>
+                <li>Followers should stay and not TP when on Stay mode</li>
+                <li>Removed camel herd check, added level check instead</li>
+                <li>Added several new items that augment leadership abilities when used or equipped</li>
+                <li>Added goblin runt and shaman runt to trainable types (str)</li>
+              </ul>
+              <strong>===Quests===</strong>
+              <ul>
+                <li>Fixed experience bug on some quests</li>
+                <li>Newbie Trainers now displaying correct needed exp and handing out appropriate rewards</li>
+                <li>Dynamic(Chalice) Quests adjusted in a variety of locations (Krog, Whisperdale)</li>
+                <li>Fixed Kobold Attack quest so that you can talk to Lowe's again if you fail</li>
+                <li>Fix for Lotorian Knight quest when it is cancelled</li>
+                <li>Fix for Artraxis quest(if you had previously) completedit, it appeared as if you still need to talk to Darok. Once you talk to him it will correct itself)</li>
+              </ul>
+              <strong>===Tradeskills===</strong>
+              <ul>
+                <li>Updated smelter's gloves to be armor and fit into armor cabinet</li>
+                <li>New magic tradeskill item</li>
+              </ul>
+              <strong>===Misc===</strong>
+              <ul>
+                <li>When you first learn a skill, it will appear in skill window as soon as it is obtained(was bugged, had to relog for skills to appear)</li>
+                <li>Adjusted heal value of bandage and time on bandage and healing pot</li>
+              </ul>
+
+            </article>
+            <div class="body-line"></div>
+            <article>
+                <small class="article-date" >FujiQ 07/20/2020</small> 
+              <br>
+              This was added a few patches ago and I am not sure why I didn't include in notes; you can make Large Crab Stew. 
+              The reciped is as follows:
+              <ul>
+                <li>2 Crab Meat</li>
+                <li>1 Potatoes</li>
+                <li>1 Carrots</li>
+                <li>1 Milk</li>
+              </ul>
+              It may not make sense sometimes why we're working on what we are, but there are many systems to learn and it has been good to work briefly in each of them.
+              Cooking for example, is obviously not at the fore front of anyone's mind when it comes to what is needed to be done; however, it was a good suggestion, easy,
+              and a good opportunity to learn.
+            </article>
+            <div class="body-line"></div>
+            <article>
+              <small class="article-date" >FujiQ 07/18/2020</small> 
+              <br>
+              <strong>===Misc Fixes===</strong>
+              <ul>
+                <li>Fixed bug that resulted in player invisibility</li>
+                <li>Lots of clean up on the Knight of Talazar event to make it flow and work properly</li>
+                <li>New NPC is LSP: Wizard Blunderstone. Exchanges event item "Rune Fragment" for gold, item restoration tools, or runeshard.</li>
+                <li>Boats could attack one another on L</li>
+                <li>AoE spells now follow player's Target Protection settings</li>
+              </ul>
+              <strong>===Item Adds/Changes===</strong>
+              <ul>
+                <li>Added +2 int to small sash</li>
+                <li>Added soul Pact ring</li>
+                <li>Added new art for ant legs, werewolf claws, warg claws, hell hound claws, wolverine claws, & snagglefang's claw.</li>
+                <li>New no drop item "Rune Fragment" for the Knight of Talazar event</li>
+                <li>Removed item no drop on large knapsack</li>
+                <li>Weapon and Armor artifacts adjusted to be viable end game items</li>
+              </ul>
+              <strong>===Krog area balancing===</strong>
+              <ul>
+                <li>Added items to alchemy shop: Yellow Silk Robe, Wizard Hat, Mage Wand/Scepter, Toothwand, Small Sash, Potions of Repair and Stamina</li>
+                <li>Added march light spawn</li>
+                <li>Added potions to shops</li>
+                <li>Bump to gold given in Krog area quests</li>
+                <li>Added faction point rewards to single quests</li>
+                <li>Bump xp on alchemist singaford quest</li>
+                <li>Various polish details on quests and NPC chat</li>
+                <li>Fixed double chat message in Sewer quest</li>
+                <li>Added reward to Sewer quest - Large Knapsack</li>
+              </ul>
+              <strong>===Quest Fixes/Balance===</strong>
+              <ul>
+                <li>Upped Shargar quest reward.</li>
+                <li>Lowered number of mobs on patrons to 35, min 20</li>
+                <li>Patrons now give higher faction reward</li>
+                <li>Newbie thrown weapon and polearms trainer now working properly</li>
+                <li>Fixed issue on "finish your task with your other trainer" text</li>
+                <li>DTM updates in chat whenyou kill a creature for the quest</li>
+                <li>Fixed infinite xp for guild quest</li>
+                <li>Fixed player response on stage 2 of galen quest (I took his life, but his soul) should have been on two lines in prompt.</li>
+                <li>Guardian now looks for failed stage if you have failed to craft the pure crystal</li>
+                <li>Chaos Knight updates appropriately</li>
+                <li>Updated some newbie dynamic quests</li>
+                <li>Fixed finish your quest with your chery newbie trainer bug</li>
+                <li>Fix for shipwreck quest</li>
+                <li>Some grammer and formatting changes in a few low level quests</li>
+                <li>Fixed whisperdale emissary (spore quest) bug on stage 11 where there was no convo and got players hung waiting to talk</li>
+              </ul>
+              <strong>===Creatures===</strong>
+              <ul>
+                <li>Scaled back poison damage on scorpions (cut duration in half)</li>
+                <li>Knight of Talazar brough up to 2020 level boss stats</li>
+                <li>Deep shadows upped near whisperdale</li>
+                <li>Adjusted kobold chief (better item drop chance)</li>
+              </ul>
+          </article>          
+
+            <div class="line"></div>
+
+            <h3 id="vipGrabBags" class="anchor">Vip Grab Bags</h3>
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading accordion-border">
+                    <h5 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                      May 2020</a>
+                    </h5>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body accordion-border">
+                        <ul class="light-grey-text">
+                            <li>1 Berserker Potion Pack</li>
+                            <li>3 Summon Corpse</li>
+                            <li>1 Greater Potion Pack</li>
+                            <li>2 Broken Finger Access</li>
+                            <li>2 Lair of Minos Access</li>
+                            <li>1 Item NO-DROP</li>
+                            <li>2 Drop Rate Increase</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading accordion-border">
+                    <h5 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                      June 2020</a>
+                    </h5>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body accordion-border">
+                        <ul class="light-grey-text">
+                            <li>2 Greater Potion Packs</li>
+                            <li>2 Broken Finger Access Tickets</li>
+                            <li>3 Item Restoration Packs</li>
+                            <li>3 Personal Power Hours</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading accordion-border">
+                    <h5 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                      July 2020</a>
+                    </h5>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body accordion-border">
+                        <ul class="light-grey-text">
+                            <li>2 Item Rename</li>
+                            <li>1 Chest of Holding</li>
+                            <li>2 Summon Corpse</li>
+                            <li>2 Item Restoration Pack</li>
+                            <li>2 Personal Power Hour</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading accordion-border">
+                      <h5 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                        August 2020</a>
+                      </h5>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                      <div class="panel-body accordion-border">
+                          <ul class="light-grey-text">
+                              <li>2 Rune Shards</li>
+                              <li>2 Summon Corpse</li>
+                              <li>2 Boost Alignment</li>
+                              <li>1 Item Rename</li>
+                              <li>1 Dragon Mask Pack</li>
+                              <li>1 Greater Potion Pack</li>
+                          </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading accordion-border">
+                      <h5 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                        September 2020</a>
+                      </h5>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse">
+                      <div class="panel-body accordion-border">
+                          <ul class="light-grey-text">
+                              <li>1 Orb Reset</li>
+                              <li>2 Berserker Potion Packs</li>
+                              <li>2 Greater Potion Packs</li>
+                              <li>4 Drop Rate Increases</li>
+                          </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading accordion-border">
+                      <h5 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                        October 2020</a>
+                      </h5>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse">
+                      <div class="panel-body accordion-border">
+                          <ul class="light-grey-text">
+                              <li>5 Berserker Potions</li>
+                              <li>1 Item No Drop Remove</li>
+                              <li>2 Rune Shards</li>
+                              <li>1 Jail Pardon</li>
+                              <li>3 Drop Rate Increase</li>
+                          </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            
+            <div class="line"></div>
+
+            <footer class="jumbotron text-center">
+                <p>Designed by Keith Heffington</p>
+                <p>&copy; <span id="date"></span></p> 
+            </footer>
+        
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="JS/data.js"></script>
+</body>
+
+</html>

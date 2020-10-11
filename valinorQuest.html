@@ -1,0 +1,2087 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>AEGuides | Valinor Quest</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="body-bg"> 
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" class="top-margin">
+            <div>
+                <img src="Images/Logo/AE_Logo.PNG" style="width:100%">
+            </div>
+            <div class="sidebar-header">
+                <h3>AEGuides</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#guidesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Quest</a>
+                    <ul class="collapse list-unstyled" id="guidesSubmenu">
+                        <li>
+                          <a href="#welcomeToAshenEmpires">Welcome To Ashen Empires</a>
+                        </li>
+                        <li>
+                            <a href="#kumbaPendant">Kumba's Pendant</a>
+                        </li>
+                        <li>
+                            <a href="#strangeFascination">Strange Fascination</a>
+                        </li>
+                        <li>
+                            <a href="#theNecklace">The Necklace</a>
+                        </li>
+                        <li>
+                            <a href="#ourLittleSpiderProblem">Our Little Spider Problem</a>
+                        </li>
+                        <li>
+                          <a href="#theRing">The Ring</a>
+                        </li>
+                        <li>
+                          <a href="#proof">Proof</a>
+                        </li>
+                        <li>
+                          <a href="#frumpTheCook">Frump the Cook</a>
+                        </li>
+                        <li>
+                          <a href="#cloaksToDieFor">Cloaks to Die For</a>
+                        </li>
+                        <li>
+                          <a href="#war">War</a>
+                        </li>
+                        <li>
+                          <a href="#curtisSecret">Curtis's Secret</a>
+                        </li>
+                        <li>
+                          <a href="#strangRequest">Strang Request</a>
+                        </li>
+                        <li>
+                          <a href="#daveysRattle">Davey's Rattle</a>
+                        </li>
+                        <li>
+                          <a href="#aGoblinProblem">A Goblin Problem</a>
+                        </li>
+                        <li>
+                          <a href="#hellHathNoFury">Hell hath No Fury</a>
+                        </li>                        
+                    </ul>
+                </li>
+                <li>
+                  <a href="#weaponSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Weapon Trainers</a>
+                  <ul class="collapse list-unstyled" id="weaponSubmenu">
+                      <li>
+                          <a href="#largeBladeTrainer">Large Blade</a>
+                      </li>
+                      <li>
+                          <a href="#bluntTrainer">Blunts</a>
+                      </li>
+                      <li>
+                          <a href="#smallBladesTrainer">Small Blades</a>
+                      </li>
+                      <li>
+                          <a href="#axeWeaponTrainer">Axe</a>
+                      </li>
+                      <li>
+                        <a href="#polearmsTrainer">Polearms</a>
+                      </li>
+                      <li>
+                        <a href="#unarmedCombatTrainer">Unarmed Combat</a>
+                      </li>
+                      <li>
+                        <a href="#archeryTrainer">Bows</a>
+                      </li>
+                      <li>
+                        <a href="#crossbowTrainer">Crossbows</a>
+                      </li>
+                      <li>
+                        <a href="#thrownWeaponsTrainer">Thrown</a>
+                      </li>
+                  </ul>
+              </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="top-margin">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-dark">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="guides.html">Guides</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tradeskills.html">TradeSkills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="items.html">Items</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <h1>Valinor Quests</h1>
+
+            <div class="line"></div>
+
+            <h2>Quest</h2>
+          
+            <!-- Main Content -->
+            <div>
+              <!-- Start of Welcome to Ashen Empires -->
+              <div class="card bg-secondary half-width mb-5">
+                <div class="card-header">
+                  <h2 id="welcomeToAshenEmpires" class="anchor text-center">Welcome To Ashen Empires</h2>
+                </div>
+                <div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Difficulty</th>
+                          <th>Skills</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Apprentice</td>
+                          <td>Combat</td>                        
+                    </table>
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>NPC Quest Start</th>
+                          <th>Monster</th>
+                          <th>Reward</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Duke Randolf <br> Coordinates: <br>Static <br> X:749 Y:75 Z:0
+                          </td>
+                          <td>Bats (lvl 1) <br> Snakes (lvl 2)                            
+                          </td>
+                          <td>
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard.png" alt="Tunic of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard_Stats.png' alt='Tunic of the Island Guard'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Smock_of_the_Island_Guard.png" alt="Smock of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Smock_of_the_Island_Guard_Stats.png' alt='pants'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Pants.png" alt="Pants" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Pants_Stats.png' alt='pants'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Boots_of_the_Island_Guard.png" alt="Boots of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Boots_of_the_island_Guard_Stats.png' alt='Boots of the Island Guard'>"> 
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Items/Sextant.png" alt="Sextant" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Sextant_Stats.png' alt='Boots of the Island Guard'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Items/Large_Knapsack.png" alt="Large Knapsack" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Large_Knapsack_Stats.png' alt='Boots of the Island Guard'>">
+                          <br>
+                          
+
+
+                        </td>                        
+                    </table>
+
+                    <hr>
+                    <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Duke_Randolf.png" alt="Duke Randolf">
+                        <span class="light-red">Duke Randolf</span> welcomes you to the <span class="green">Island of Valinor</span>. He explains to you that they have been under siege by all forms of evil. He needs all able-bodies to help defend the city,
+                        but you are quite ill-prepared to face the dangers that lie ahead.
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">5 Hardtacks</span></li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">2 Torches</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">225</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>  
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Welcome to Ashen Empires</span><span class="orange">, Speak to Lord Trembley on the shores of Valinor.</span>
+                    </p>
+                    <p>
+                        <img class="npc-img"src="Images/Valinor/NPCS/Lord_Trembley.png" alt="Lord Trembley">
+                        Speak to <span class="light-red">Lord Trembley</span>. He is surprised that you are alive being washed ashore. He explains about how to open your Equipment screen by pressing <span class="orange">E</span> 
+                        on your keyboard. You can examine yourself and assign your orbs in strength, Dexterity, Intelligence or Constitution. He asks what type of person you are; <span class="green">Warrior, Crafter or Mage</span>
+                        Your choice will determin the cothing you are giving.
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Tunic of the Island Guard</span> (Warrior)</li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Smock of the Island Guard </span> (Crafter)</li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Robe of the Island Guard</span> (Mage)</li>
+                        </ul>  
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Pants</span></li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Sextant</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">1,125</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>                       
+                        After chosing your profession he ask you to go speak to <span class="light-red">Sage Haritod</span>
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Welcome to Ashen Empires</span><span class="orange">, Speak to Sage Haritod.</span>
+                    </p>
+                    <p>
+                      <img class="npc-img" src="Images/Valinor/NPCS/Sage_Haritod.png" alt="Sage Haritod">
+                      Speak to <span class="light-red">Sage Haritod</span>. He explains how to open your quest log by pressing <span class="orange">L</span> on your keyboard.
+                      <span class="light-red">Sage Haritod</span> has many options to explan the game to you. You can continue though many of his dilogue or continue on.
+                      He tells you to speak to one of the <span class="light-red">Weapon, Magic, or Tradeskill trainers</span> to receive your next task. The weapon trainers
+                      are to the right, magic trainers are down the stairs and tradeskill trainers are to the left and found around the city.
+                      <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">450</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr> 
+                      <span class="green">QUEST RECEIVED:</span><span class="red"> Welcome to Ashen Empires</span><span class="orange">, Speak to Weapon, Magic or Tradeskill Trainer.</span>
+                    </p>
+                    <p>
+                      Once you speak to one of the trainers you will begin a new Quest route for that trainer. You will also recieve the next quest in the <span class="red">Welcome to Ashen Empires</span> quest.
+                      <br>
+                      <span class="green">QUEST RECEIVED:</span><span class="red"> Welcome to Ashen Empires</span><span class="orange">, Speak to the Captain of the Guard.</span>
+                    </p>
+                    <p class="clearfix">
+                      <img class="npc-img" src="Images/Valinor/NPCS/Captain_of_the_Guard.png" alt="Captain of the Guard">
+                      Speak to the <span class="light-red"> Captain of the Guard</span> and he will give you a sack to carry your supplies.
+                      <hr>
+                      <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Large Knapsack</span></li>
+                        <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">450</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                      </ul>
+                      <hr> 
+                      He will tell you of a problem outside the walls. The bat and snake population has gotten out of control. He want's you to slay 25 of these vermin to keep them in check.
+                      <br>
+                      <span class="green">QUEST RECEIVED:</span><span class="red"> Welcome to Ashen Empires</span><span class="orange">, Keep the vermin in check - kill 25 bats or snakes.</span>
+                    </p>
+                    <p class="clearfix">
+                      <img class="npc-img" src="Images/Valinor/Monsters/Bat.png" alt="Bat">
+                      <img class="npc-img" src="Images/Valinor/Monsters/Snake.png" alt="Snake">
+                      Head outside the walls and kill 25 bats or snakes. The quest will keep track of your kills in your chat window and your quest log. Once you kill the 25th vermin you will receve a quest update.
+                    </p>
+                    <p>  
+                      <span class="green">QUEST UPDATE: You have rid the land of 25 foul vermin for the Captain of the Guard!</span>
+                      <br>
+                      <span class="green">QUEST RECEIVED:</span><span class="red"> Welcome to Ashen Empires</span><span class="orange">, Report back to the captain of the Guard.</span>                      
+                    </p>
+                    <p>
+                      Return to the <span class="light-red">Captain of the Guard</span> for your reward.
+                      <hr>
+                      <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Boots of the Island Guard</span></li>
+                        <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">450</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                      </ul>
+                      <hr>
+                      Retrun to him if you would like another task.
+                      <br>
+                      <p class="mt-4 py-3 text-center quest-complete">
+                      QUEST COMPLETE 
+                      </p>
+                    </p>
+                 
+                  </div>
+                </div>
+              </div>
+              <!-- End of Welcome to Ashen Empires -->
+              <div class="line"></div>
+                <!-- Start of Kumba's Pendant -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="kumbaPendant" class="anchor text-center">Kumba's Pendant</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Combat</td>                        
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Monster</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Kumba Northern <br>Coordinates:<br>Roaming <br> X:760 Y:137 Z:0</td>
+                            <td>Spider (lvl 3)</td>
+                            <td>
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Moth_Riddled_Cloak.png" alt="Moth Riddled Cloak" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Moth_Riddled_Cloak_Stats.png' alt='Moth Riddled Cloak'>">
+                           </td>                        
+                      </table>
+
+                      <hr>
+                      <p>
+                        <img class="npc-img" src="Images/Valinor/NPCS/Kumba_Northern.png" alt="Kumba Northern">
+                        <span class="light-red">Kumba Northern</span> was out looking for a suitable place to plant his crops when he dropped his pendant,
+                        before he could reach down to pick it up, a spider picked it up and ran down a hole. <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Kumba's Pendant</span><span class="orange"> Find Kumba Northern's Pendant. It was taken into a hole by a spider</span><br>
+                      </P>
+                      <p class="clearfix">  
+                        <img class="npc-img" src="Images/Valinor/Monsters/Spider.png" alt="Spider">
+                        Adverture out and kill spiders untill you get an update that you have found the pendant. <br>
+                        <span class="green">QUEST UPDATE:</span><span class="orange"> You found Kumba's Pendant! Return to him inside the Valinor Castle.</span><br>
+                        Speak to <span class="light-red">Kumba Northern</span> to recieve your reward.
+                        <hr> 
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Moth Riddled Cloak</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">450</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>
+                    </p>
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Kumba's Pendant -->
+                <div class="line"></div>
+                <!-- Start of Strange Fascination -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="strangeFascination" class="anchor text-center">Strange Fascination</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>
+                            <th>Items</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Combat</td>
+                            <td>Ear of bat <br>
+                               <img class="thumbnail-img" src="Images/Valinor/Items/Items/Ear_of_Bat.png" alt="Ear of Bat">                           
+                            </td>                        
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Monster</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Mary Locksley <br>Coordinates: <br>Roaming <br>X:775 Y:147 Z:0 </td>
+                            <td>Bat (lvl 1)</td>
+                            <td>
+                             <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Bat_Ear_Necklace.png" alt="Bat Ear Necklace" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Bat_Ear_Necklace_Stats.png' alt='Bat Ear Necklace Stats'>">
+                           </td>
+                      </table>
+
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Mary_Locksley.png" alt="Mary Locksley">
+                        <span class="light-red">Mary Locksley</span> is very fascinated with bat ears. She needs you to bring her 10 of their ears and she will make you a pretty necklace. <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Strange Fascination</span><span class="orange">, Bring Mary Locksley 10 Ear of bat</span>
+                      </p>
+                      <p class="clearfix">  
+                        <img class="npc-img" src="Images/Valinor/Monsters/Bat.png" alt="Bat">
+                        Adverture out and kill bats untill you get an update that you have collected enough Ear of Bat. <br>
+                        <span class="green">QUEST UPDATE:</span><span class="orange"> You have collected enough <span class="green">Ear of Bat</span> to complete the quest. (10/10)</span><br>
+                        Speak to <span class="light-red">Mary Locksley</span> to recieve your reward.
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Bat Ear Necklace</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">450</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>
+                      </p>
+                      <p class="mt-4 py-3 text-center quest-complete">
+                        Quest Complete
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Strange Fascination -->
+                <div class="line"></div>
+                <!-- Start of The Necklace -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="theNecklace" class="anchor text-center">The Necklace</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>
+                            <th>Items</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Combat</td>
+                            <td>Triddle Shell <br>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Items/Triddle_Shell.png" alt="Triddle Shell"></td>                        
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Monster</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Douglas Logan<br>Cordinates:<br>Static<br> X:740 Y:149 Z:1</td> 
+                            <td>Triddle (lvl 1)</td>
+                            <td>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Triddle_Shell_Armor.png" alt="Triddle Shell Armor" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Triddle_Shell_Armor_Stats.png' alt='Triddle Shell Armor stats'>">
+                            </td>                        
+                      </table>
+
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Douglas_Logan.png" alt="Douglas Logan">
+                        <span class="light-red">Douglas Logan</span> is looking for someone to gather 10 triddle shells to make a necklace for this lovely lady.
+                        <br>                      
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> The Necklace</span><span class="orange">, You met Douglas Logan in the Valinor Cellar, who asked you to get 10 Triddle Shells.</span>
+                      </p>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/Monsters/Triddle.png" alt="Triddle">
+                        Adverture out and kill triddles untill you get an update that you have collected enough triddle shells.
+                        <br>
+                        <span class="green">QUEST UPDATE:</span><span class="orange"> You have collected enough <span class="green">Triddle Shell</span> to complete the quest. (10/10)</span>
+                        <br>
+                        Speak to <span class="light-red">Douglas Logan</span> to recieve your reward.
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Triddle Shell Armor</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">900</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>
+                      </p>                      
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of The Necklace -->
+                <div class="line"></div>
+                <!-- Start of Our Little Spider Problem -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="ourLittleSpiderProblem" class="anchor text-center">Our Little Spider Problem</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Combat</td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Monster</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Serina Wilcut<br>Cordinates:<br>Static <br>X:781 Y:121 Z:0</td> 
+                            <td>Dredge Spiders (lvl 2)</td>
+                            <td>100 Gold</td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Serina_Wilcut.png" alt="Serina Wilcut">
+                        <span class="light-red">Serina Wilcut</span> is needing your help keeping the lower cellars free of spiders for her husband. He was called into service to fight the new goblin menace.
+                        She is dreading that someone will soon come take his job out from under him. She needs you to slay 10 dredge spiders and pay you his monthly salary.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Our Little spider Problem</span><span class="orange">, Kill 10 Dredge Spiders in valinor cellar.</span>
+                        <br>
+                        <img class="npc-img" src="Images/Valinor/Monsters/Dredge_Spider.png" alt="Dreadge Spider">
+                        Adverture downstairs and slay dredge spiders untill you get an update that you have killed enough
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Our Little Spider Problem </span><span class="orange"> 10 Dredge Spiders killed. return to Serina for your reward.</span>
+                        <br>
+                        Speak to <span class="light-red">Serina Wilcut</span> for your reward.
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">100 Gold</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">562</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>                        
+                    </p>
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Our Little Spider Problem -->
+                <div class="line"></div>
+                <!-- Start of The Ring -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="theRing" class="anchor text-center">The Ring</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>None</td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Shady Looking Man<br>Roaming <br> Cordinates: X:826 Y:122 Z:0<br></td> 
+                            <td>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Sarahs_Promise_Ring.png" alt="Triddle Shell Armor" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Sarahs_Promise_Ring_Stats.png' alt='Triddle Shell Armor stats'>">
+                            </td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Shady_Looking_Man.png" alt="Shady Looking Man">
+                        The <span class="light-red">Shady Looking Man </span>is in a bind and needs your help. His grandmother's ring was stolen from him and needs you to get it back for him for sentimental reasons.
+                        The Eastern Gate Guards has recovered it from the thief, and placed it inside the evidence locker. If you could recover it, his old Auntie would be very thankful.                        
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> The Ring</span><span class="orange">, You agreed to help the shad looking man recover the stolen ring from the Eastern Gate Guard house.</span>
+                        <br>
+                        <img class="npc-img clearfix" src="Images/Valinor/NPCS/Eastern_Gate_Lieutenant.png" alt="Eastern Gate Guard">
+                         Head over to the Eastern Gate and serach the evidence locker. Searching the evidence locker cause the <span class="light-red">Eastern Gate Lieutenant</span> to speak. He can't let just anyone have that ring. He needs a signed receipt for it.
+                         They are holding the stolen ring for Sarah Bent. You'll need to talk to her and have her sign for the item before it can be released.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> The Ring</span><span class="orange">, The Eastern Gate Lieutenant needs a signed receipt from Sarah Bent.</span>
+                        <br>
+                        <img class="npc-img" src="Images/Valinor/NPCS/Sarah_Bent.png" alt="Sara Bent">
+                        Find <span class="light-red">Sarah Bent</span> in the Alchimist shop in Valinor Castle. She will be excited that her ring has been found and will sign the receipt for it.
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">175</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> The Ring</span><span class="orange">, Retrieve Sarah's lost ring from the evidence locker.</span>
+                        <br>
+                        Talk to the <span class="light-red">Eastern Gate Lieutenant</span>, he will agree to let you take the ring from the evidence locker.                        
+                        <br>
+                        <span class="green">You begin searching the evidence locker... <br>ITEM: RECEIVED: Dull Emerald Ring</span>
+                        <img src="Images/Valinor/Items/Armor/Dull_Emerald_Ring.png" alt="Dull Emerald Ring">
+                        <br>
+                        He trusts you will return the ring to its proper owner.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> The Ring</span><span class="orange">, Return the ring to its rightful owner.</span>
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">OPTION: 1</strong> Give the ring to the <span class="light-red">Shady Looking Man</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">OPTION: 2</strong> Give the ring to the <span class="light-red">Sarah Bent</span></li>
+                        </ul>
+                        <hr>
+                        <strong class="light-blue">OPTION: 1</strong>
+                        <br>
+                        <span class="light-red">Shandy looking Man</span>: Ah! the ring! I've been searching for that for months. My dear, sweet mum will be so happy that I've found it.
+                        Speak to him again he will say he made quite a fortune by selling it... Uhh... I mean, my wife was very happy to have it back...  
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">25 Gold</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">700</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>
+                        <strong class="light-blue">OPTION: 2</strong>
+                        <br> 
+                        <span class="light-red">Sarah Bent</span>: You found my ring! I am so happy. Please hand it to me. I have a small reward for you. She is very happy you found her
+                        Engagement Ring. 
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">50 Gold</span></li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Sarah's Promise Ring</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">900</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>  
+                         You returned the ring to Sarah Bent and were rewarded with Sarah's Promise Ring.                  
+                    </p>
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of The Ring -->
+                <div class="line"></div>
+                <!-- Start of Proof -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="proof" class="anchor text-center">Proof</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Combat</td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Monster</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Paula Duncan<br>Cordinates:<br>Static <br>X:648 Y:189 Z:0</td> 
+                            <td>Goblin Runt (lvl 3) <br> Goblin Worker (lvl 4) <br>Goblin Shaman Runt (lvl 5)</td>
+                            <td>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Items/Totem_of_the_Wolf_Pup.png" alt="Totem of the Wolf Pup" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Totem_of_the_Wolf_Pup_Stats.png' alt='Triddle Shell Armor stats'>">
+                            </td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Paula_Duncan.png" alt="Paula Duncan">
+                        <span class="light-red">Paula Duncan</span> Has never seen goblins in her life. She says to you if they do exist then bring her a goblin scalp to prove it.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Proof</span><span class="orange">, Bring a goblin scalp to Paula Duncan to prove to her that goblins are real..</span>
+                      </p>
+                      <p>  
+                        <img class="monster-img" src="Images/Valinor/Monsters/Goblin_Runt.png" alt="Goblin Runt">
+                        <img class="monster-img" src="Images/Valinor/Monsters/Goblin_Worker.png" alt="Goblin Worker">
+                        <img class="monster-img" src="Images/Valinor/Monsters/Goblin_Shaman_Runt.png" alt="Goblin Shaman Runt">
+                        <br>
+                        Adverture south west near the coast to find goblins. You can kill either the Goblin Runt, Goblin Worker, or the Goblin Shaman. As you kill them you will receive a message each time you do not scalp a goblin.
+                        <br>
+                        <span class="red">You attempt to scalp the goblin, but botch the job horrifically...</span>
+                        <br>
+                        When you succeed at scalping the goblin you will recieved a new quest update.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Proof</span><span class="orange">, You collected a Goblin Scalp! Bring it to Paula Duncan.</span>
+                        <br>
+                        <span class="light-red">Paula Duncan</span> is amazed that goblins do exist. She rewards you with an item she found in her well.
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Totem of the Wolf Pup</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">1200</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>                        
+                    </p>
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Proof -->
+                <div class="line"></div>
+                <!-- Start of Frump the Cook -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="frumpTheCook" class="anchor text-center">Frump the Cook</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Combat</td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Monster</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Imeral Lagost<br>Cordinates:<br>Static <br>X:601 Y:326 Z:1</td> 
+                            <td>Frump the Cook (lvl 7)</td>
+                            <td>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Frump_Amulet.png" alt="Frumps Amulet" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Frump_Amulet_Stats.png' alt='Triddle Shell Armor stats'>">
+                            </td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Imeral_Lagost.png" alt="Imeral Lagost">
+                        <span class="light-red">Imeral Lagost</span> Has a bit of a problem. A goblin by the name of Frump the Cook has stolen some of his special ingredients for a pie
+                        that he is to make for Lord Trembley. He has finally traced down the scamp. He is somewhere down in this dungeon. He wants you to slay him. He suggest you bring 
+                        help to defeat him. 
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Frump the Cook</span><span class="orange">, Find and kill Frump the Cook for Imeral Lagost.</span>
+                      </p>
+                      <p class="clearfix">  
+                        <img class="monster-img" src="Images/Valinor/Monsters/Goblin_Runt.png" alt="Goblin Runt">                      
+                        <img class="monster-img" src="Images/Valinor/Monsters/Goblin_Shaman_Runt.png" alt="Goblin Shaman Runt">
+                        <img class="monster-img" src="Images/Valinor/Monsters/Young_Hobgoblin.png" alt="Young qHobgoblin">
+                      </p>
+                      <p class="clearfix">
+                        <img class="npc-img mt-1" src="Images/Valinor/Maps/Frump_the_Cook_Location.png" alt="Frumps Location">
+                        <img class="npc-img" src="Images/Valinor/Monsters/Frump_the_Cook.png" alt="Frumps the Cook">
+                        Frump is loacated at the south east part of this dungeon. You can see the X on the map. You will encounter all types of goblins on the way there. Goblin Runts, 
+                        Goblin Shaman Runts, Young Hobgoblins. Once you defeat Frump you will be updated with the next part of the quest.
+                        <br>
+                        <span class="green">QUEST UPDATE:</span><span class="red"> Frump the Cook</span><span class="orange">, Return the pie ingredients to Imeral Lagost.</span>
+                        <br>
+                        <span class="light-red">Imeral Lagost</span> Is amazed you took down Frump the Cook. He rewards you with an amulet he found in Frump's empty slop bucket.
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Frump's Amulet</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">5,250</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>                        
+                    </p>
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Frump the Cook -->
+                <div class="line"></div>
+                <!-- Start of Cloaks to Die For -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="cloaksToDieFor" class="anchor text-center">Cloaks to Die For</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Combat</td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Monster</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Lorlee Eclain<br>Cordinates:<br>Roaming <br>X:1079 Y:471 Z:0</td> 
+                            <td>Rancid Zombie (lvl )</td>
+                            <td>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Zombie_Skin_Cloak.png" alt="Zombie Skin Cloak" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Zombie_Skin_Cloak_Stats.png' alt='Zombie Skin Cloak Stats'>">
+                            </td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Lorlee_Eclain.png" alt="Lorlee Eclain">
+                        <span class="light-red">Lorlee Eclain</span> makes exquisite clothing from very unusual materials. She is making cloaks for the nobles in Silvest from Zombie Skins.
+                        If you could collect the skins for her that would be simply fabulous! She is not fit for adventuring lifestyle.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Cloaks To Die For</span><span class="orange">, Bring Lorlee Eclain of Valinor 10 Zombie Skins (10/10)</span>
+                      </p>
+                      <p class="clearfix">  
+                        <img class="npc-img" src="Images/Valinor/Monsters/Rancid_Zombie.png" alt="Rancid Zombie">
+                        Adventure to west and kill Rancid Zombie and collect 10 Zombie Skins. 
+                        <br>
+                        <span class="green">QUEST UPDATE:</span><span class="orange"> You have collected enough </span><span class="green">Zombie Skin</span><span class="orange"> to complete the quest.</span>
+                        <br>
+                        Return to <span class="light-red">Lorlee Eclain</span> she will have a sample of her work for you to try. It should help you in your defense from the undead, even though
+                        the color still needs some work. 
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Zombie Skin Cloak</span></li>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">2,625</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>                        
+                        You received a Zombie Skin Cloak in exchange for the Zombie Skins.
+                    </p>
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Cloaks to Die For -->
+                <div class="line"></div>
+                <!-- Start of War -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="war" class="anchor text-center">War</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Combat</td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Monster</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Captain of the Guard<br>Cordinates:<br>Static <br>X:760 Y:149 Z:0</td> 
+                            <td>Goblin Runt (lvl 3) <br> Small Skeleton (lvl ) <br>BoneSnarl (lvl )</td>
+                            <td>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Helm_of_the_Island_Guard.png" alt="Helm of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Helm_of_the_Island_Guard_Stats.png' alt='Helm of the Island Guard Stats'>">
+                            </td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Captain_of_the_Guard.png" alt="Captain of the Guard">
+                        <span class="light-red">Capatain of the Guard</span> is in urgent need of a report on the condition of the Southern Guard Post. He has not heard from the Guard in command in quite some time.
+                        Venture south along the road to the Southern Guard post and speak to Guard Calaway.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, Report to Guard Calaway at the Southern Guard Outpost.</span>
+                      </p>
+                      <p class="clearfix">  
+                        <img class="npc-img" src="Images/Valinor/NPCS/Guard_Calaway.png" alt="Guard Calaway">
+                        Speak to <span class="light-red">Guard Calaway</span> he will say they are find here, but is worried about the regiment he sent to defend the bridge to the south.
+                        venture south and check on his men there. Get a full report from Sergeant Dawson.  
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, Get Sergeant Dawson's report from the South Bridge.</span>
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">300</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>
+                      </P>
+                      <p class="clearfix">  
+                        <img class="npc-img" src="Images/Valinor/NPCS/Sergeant_Dawson.png" alt="Sergeant Dawson">
+                        Speak to <span class="light-red">Sergeant Dawson</span> for his report. He says the goblins descended on them and killed all his men. You must tell the
+                        Captain back in the city to send reinforcements.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, Report the goblin attack to the Captain of the Guard.</span>
+                        <br>
+                        Speak to <span class="light-red">Captain of the Guard</span> inform him of the attack on the southern bridge. He has no men to send to help.
+                        We can't leave the city undefended. He ask you to exact revenge on the foul horde. He ask you to kill goblins untill you obtain the title of <span class="green">Novice Killer of Goblins</span>
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, Kill 25 Goblins to become a Novice Killer of Goblins.</span> 
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">600</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>
+                        <br>
+                                                                       
+                    </p>
+                    <p> 
+                      <img class="monster-img" src="Images/Valinor/Monsters/Goblin_Runt.png" alt="Goblin Runt">
+                      <img class="monster-img" src="Images/Valinor/Monsters/Goblin_Worker.png" alt="Goblin Worker">
+                      <img class="monster-img" src="Images/Valinor/Monsters/Goblin_Shaman_Runt.png" alt="Goblin Shaman Runt">
+                      <br>
+                      Cross the south bridge and kill 25 goblins untill you become <span class="green">Novice Killer of Goblins</span>.
+                      <br>
+                      <span class="green">You have proven yourself against the Goblins, Speak with the Captain of the Guard.</span>
+                      <br>
+                      <span class="light-red">The Captain of the Guard</span> will inform you that he has finally gotten some reinforcements to take care of this goblin problem once and for all.
+                      Report to duty with <span class="light-red">Guard Calaway</span> at the Southern Guard Post to help with the elimination of the goblins.
+                      <br>
+                      <span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, Report to Guard Calaway at the Southern Guard Post.</span>  
+                    </p>
+                    <p>
+                    Report to <span class="light-red">Guard Calaway</span> to begin the raid on the goblins to the south. This will be some heavy action, take this helm. 
+                    <hr>  
+                    <ul>
+                      <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Helm of the Island Guard</span></li>
+                    </ul>
+                    <hr>
+                    <img class="monster-img" src="Images/Valinor/NPCS/Quest_War_Island_Guards.png" alt="Island Guard on the move">
+                    <img class="monster-img mt-1" src="Images/Valinor/NPCS/Quest_War_Island_Guards_Raid.png" alt="Island Guards attacking the Goblins at the south bridge">
+                    <br>
+                    <span class="light-red">Guard Calaway</span> will say <strong class="light-blue">CHARGE</strong> and a group of Island Guards will spawn and move to the south.
+                    At the bridge there will be a group of Goblin Runts heading north to clash with the Island Guards. After the battle there is not an update to go tell the <span class="light-red">Captain of the Guard</span>.
+                    Needs to be an update (<span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, Report to the Captain of the Guard after the raid on the goblins.</span>  ) 
+                    </p>
+                    <p>
+                    <span class="light-red">The Captain of the Guard</span> will congratulate you with the job well done. Now that you have proven yourself to be a competent warrior,
+                    he could use your help in other parts of the island. He has reports that the Eastern Gate has come uner attack. Report there and help with the situation.
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, Report to the guards at the Eastern Gate.</span>  
+                  </p>
+                  <p class="clearfix">
+                    <img class="npc-img" src="Images/Valinor/NPCS/Eastern_Gate_Lieutenant.png" alt="Eastern Gate Lieutenant">
+                    Speak to <span class="light-red">Eastern Gate Lieutenant</span>. He will see if you measure up to the task. He has reports of the dead rissing from the grave to haunt
+                    the lands to the east and south. Investigate this plague on the land.
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, Prove yourself to the Eastern Gate Lieutenant. Kill 25 undead to become novice killer of the undead.</span> 
+                  </p>
+                  <p>
+                    <img class="monster-img" src="Images/Valinor/Monsters/Small_Skeleton.png" alt="Small Skeleton">
+                    <img class="monster-img" src="Images/Valinor/Monsters/Rancid_Zombie.png" alt="Rancid Zombie">
+                    <img class="monster-img" src="Images/Valinor/Monsters/Small_Skeleton.png" alt="Skeltal Pup">
+                    <img class="monster-img" src="Images/Valinor/Monsters/Small_Skeleton.png" alt="Skeltal Mage">
+                    <hr>
+                    Head though the eastern gate and kill the undead in the area till you receive the message that you are 
+                    <br>
+                    <span class="green">Novice Killer of the Undead</span>
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, You have proven yourself against the Undead. Return to the Eastern Gate Lieutenant!.</span>
+                  </p>
+                  <p>
+                    Speak to <span class="light-red">Eastern Gate Lieutenant</span>. He agrees the Captain was right about you. You might just be the person he is looking for after all. The leader of the undead
+                    menace is a skeleton named BoneSnarl. Find Bonesnarl's lair and defeat him. Ater we will celebrate.
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, You have proven yourself against the Undead. Find Bonesnarl's Lair and defeat him.</span>
+                    <hr>  
+                    <ul>
+                      <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">3,937</strong> Experience pool <span class="light-red">experience may very</span></li>
+                    </ul>
+                    <hr>
+                  </p>
+                  <p class="clearfix">
+                    <img class="monster-img" src="Images/Valinor/Monsters/Small_Skeleton.png" alt="Small Skeleton">
+                    <img class="monster-img" src="Images/Valinor/Monsters/Rancid_Zombie.png" alt="Rancid Zombie">
+                    <img class="monster-img" src="Images/Valinor/Monsters/Small_Skeleton.png" alt="Skeltal Pup">
+                    <img class="monster-img" src="Images/Valinor/Monsters/Small_Skeleton.png" alt="Skeltal Mage">
+                    <hr>
+                    <img class="npc-img" src="Images/Valinor/NPCS/Eastern_Gate_Lieutenant.png" alt="BoneSnarl">
+                    BoneSnarl's lair is southeast from the gate. Around the mountain back to the northwest. Follow the mountains north edge to the west till you get to some ruins.
+                    Go down the stairs to enter BoneSnarl's lair. This is a two story dungeon. The first area is a strait forward patch, but you can get turned around and go in a circle.
+                    The next level can be a bit more complicated. See the maps above to navigate this dungeon. There are many undead you will need to fight all the way to BoneSnarl.
+                    This will be the one of the hardest fights you will have on this island. It is recommended you bring help.
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> War</span><span class="orange">, You defeated Bonesnarl! Return the Eastern Gate Lieutenant.</span> 
+                  </p>
+                  <p>
+                    Speak to <span class="light-red">Eastern Gate Lieutenant</span>. You took down BoneSnarl! Jolly good, that wretch was causing us all sorts of problems! Report back to the <span class="light-red">Captain of the Guard</span>
+                    I think you have accomplished all that you can here.
+                    <hr>  
+                    <ul>
+                      <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">5,250</strong> Experience pool <span class="light-red">experience may very</span></li>
+                    </ul>
+                    <hr>
+                  </p>
+                  <p>
+                    Speak to <span class="light-red">Captain of the Guard</span>. Good to hear that BoneSnarl has been dealt with! He suggest that it is time for you to leave the island to
+                    adventure on the mainland. To leave the island simply walk onto the magic transporter located inside the city temple.
+                    <hr>  
+                    <ul>
+                      <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">?</strong> Experience pool <span class="light-red">experience may very</span></li>
+                    </ul>
+                    <hr>
+                    The captain of the Guard wishes you well in your adventures.
+                  </p>
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of War -->
+                <div class="line"></div>
+                <!-- Start of Curtis's Secret -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="curtisSecret" class="anchor text-center">Curtis's Secret</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Item</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Full Milk Bottle <br><img class="thumbnail-img" src="Images/Valinor/Food/Full_Milk_Bottle.png" alt="Full Milk Bottle"></td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Curtis Leabu<br>Cordinates:<br>Roaming <br>X:785 Y:99 Z:0</td> 
+                            <td>
+                              Old Worn Pack <br><img class="thumbnail-img" src="Images/Valinor/Items/Items/Old_Worn_Pack.png" alt="Old Worn Pack" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Old_Worn_Pack_Stats.png' alt='Old Worn Pack Stats'>">
+                            </td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Curtis_Leabu.png" alt="Curtis Leabu">
+                        <span class="light-red">Curtis Leabu</span> has a secret but he wont tell you untill you give him a bottle of milk.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Curtis's Secret</span><span class="orange">, Bring 1 bottle of milk to Curtis Leabu.</span>
+                      </p>
+                      <p class="clearfix">  
+                        <img class="npc-img" src="Images/Valinor/NPCS/Dairy_Cow.png" alt="Dairy Cow">
+                        Head back into the castle to the Provisioner Shop Speak to Whiliam Rosen to purchase an Empty Milk Bottle.
+                        Once you have the Empty Milk Bottle head out the west gate to Valinor Grazing Area and find a dairy cow. 
+                        Click on the dairy cow then on the Empty Milk Bottle to fill it with milk. Return to <span class="light-red">Curtis Leabu</span>.
+                        When you speak to <span class="light-red">Curtis Leabu</span> he will ask you to give him the bottle of milk
+                        and he will tell you the secret. Drag and drop the Full Bottle of Milk on to <span class="light-red">Curtis Leabu</span>  
+                        <br>
+                        <span class="green">QUEST UPDATE:</span><span class="red"> Curtis's Secret</span><span class="orange">, Check under a strange rock near the north wall of Valinor</span>
+                        <p>
+                
+                        </p>
+                        <hr>
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">350</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                        </ul>
+                        <hr>
+                      </P>
+                      <p class="clearfix">  
+                        <img class="npc-img" src="Images/Valinor/Misc/Strange_Rock.png" alt="Strange Rock">
+                        After you give him his milk he will tell you of an old man putting something under a strange rock.
+                        Just north of <span class="light-red">Curtis Leabu</span> next to the north wall you will find a strange rock,
+                        click on the strange rock to receive your reward.
+                        <br>
+                        
+                    <hr>  
+                    <ul>
+                      <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Old Worn Pack</span></li>
+                      <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">525</strong> Experience pool <span class="light-red">experience may very</span></li>
+                    </ul>
+                    <hr>
+                    You found an Old Worn Pack under the strange rock.
+                  </p>
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Curtis's Secret -->
+                <div class="line"></div>
+                <!-- Start of Strange Request -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="strangRequest" class="anchor text-center">Strange Request</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>
+                            <th>Item</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Combat</td>
+                            <td><img class="thumbnail-img" src="Images/Valinor/" alt="Strange Dust"></td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Monster</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>A Strange Looking Man<br>Cordinates:<br>Static <br>X:1208 Y:316 Z:0</td> 
+                            <td>Marsh Light (lvl )</td>
+                            <td>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Marsh_Soaked_Boots.png" alt="Marsh Soaked Boots" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Marsh_Soaked_Boots_Stats.png' alt='Marsh Soaked Boots Stats'>">
+                            </td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Timothy_Jager.png" alt="Strange Looking Man">
+                        Speak to <span class="light-red">A Strange Looking Man</span> He ask if Duke Randolf sent you to look for him. Ask him if the hunting is good.
+                        He says he not here to hunt but if your interested you can help. He is in need of 15 Strange Dust from the Marsh Lights, but the swamps of been over ran by a large number of undead.
+                        He will pay very handsomely for them.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Strange Request</span><span class="orange">, Bring the strange looking man 15 Strange Dusts</span>
+                      </p>
+                      <p class="clearfix">  
+                        <img class="npc-img" src="Images/Valinor/Monsters/Marsh_Light.png" alt="Marsh Light">
+                        Head south to the swamp and kill Marsh Lights untill you have collected 15 Strange Dust.  
+                        <br>
+                        <span class="green">QUEST UPDATE:</span><span class="orange"> You have collected enough </span><span class="green">Strange Dust</span><span class="orange"> to complete the quest.</span>
+                        <p>
+                          Return to <span class="light-red">A Strange Looking Man</span> to receve your reward. He will ask if you have the Strange Dust he requested. 
+                          <hr>  
+                          <ul>
+                            <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Marsh Soaked Boots</span></li>
+                            <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">3,937</strong> Experience pool <span class="light-red">experience may very</span></li>
+                          </ul>
+                          <hr>
+                        </P>
+
+                        <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Strange Request -->
+                <div class="line"></div>
+                <!-- Start of Davey's Rattle -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="daveysRattle" class="anchor text-center">Davey's Rattle</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>                            
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>Combat</td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Monster</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Davey Logan<br>Cordinates:<br>Static <br>X:1208 Y:316 Z:0</td> 
+                            <td>Snakes (lvl 2)</td>
+                            <td>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Spider_Silk_Leggins.png" alt="Spider Silk Leggins" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Spider_Silk_Leggins_Stats.png' alt='Marsh Soaked Boots Stats'>">
+                            </td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Davey_Logan.png" alt="Snake">
+                        Speak to <span class="light-red">Davey Logan</span>, he is crying about a lost rattle.
+                        His dad killed a snake for that rattle. He ask you to go kill a snake to get him a new rattle.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Davey's Rattle</span><span class="orange">, Kill snakes to find a new rattle for Davey Logan</span>
+                      </p>
+                      <p class="clearfix">  
+                        <img class="npc-img" src="Images/Valinor/Monsters/Snake.png" alt="Marsh Light">
+                        South out side of the walls you will find snakes. Kill them untill you get an update.  
+                        <br>
+                        <span class="green">QUEST UPDATE: You found a rattle for Davey Logan</span>
+                        <br>
+                        <span class="green">QUEST UPDATE:</span><span class="red"> Davey's Rattle</span><span class="orange">, You found a rattle for Davey Logan!</span>
+                        <p>
+                          Return to <span class="light-red">Davey Logan</span>, he is excited you have found his rattle. He found a pair of pants
+                          when his Aunt Nessie came to visit. He give them to you as a reward since they are no fun to play with.
+                          <hr>  
+                          <ul>
+                            <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Spider Silk Leggins</span></li>
+                            <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">450</strong> Experience pool <span class="light-red">experience may very</span></li>
+                          </ul>
+                          <hr>
+                        </P>
+
+                        <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Davey's Rattle -->
+                <div class="line"></div>
+                <!-- Start of A Goblin Problem -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="aGoblinProblem" class="anchor text-center">A Goblin Problem</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>                            
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>None</td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Timothy Jager<br>Cordinates:<br>Roaming <br>X:735 Y:135 Z:0</td> 
+                            <td>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Supply_Runners_Belt.png" alt="Supply Runners Belt" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Supply_Runners_Belt_Stats.png' alt='Marsh Soaked Boots Stats'>">
+                            </td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/Timothy_Jager.png" alt="Timothy Jager">
+                        Speak to <span class="light-red">Timothy Jager</span>, He has a bit of a problem.
+                        Supplies intended for the southern outpost have gone unaccounted for. There have been a bit of a 'Goblin Problem'
+                        in the area. He wants you to locate and return the supplies.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> A Goblin Problem</span><span class="orange">, Timothy Jager asked you to locate a shipment of supplies sent to the southern outpost.</span>
+                      </p>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/Maps/Shipment_Crate_Location.png" alt="Shipment Crate Locations">  
+                        <img class="npc-img" src="Images/Valinor/Items/Items/Shipment_Crate_1.png" alt="Shipment Crate 1">
+                        <img class="npc-img" src="Images/Valinor/Items/Items/Shipment_Crate_2.png" alt="Shipment Crate 2">
+                        <img class="npc-img" src="Images/Valinor/Items/Items/Shipment_Crate_3.png" alt="Shipment Crate 3">
+                        The map shows the three locations you will need to find all Shipment Crates. Head out side the walls to the southwest past the southern outpost. At the bridge, in the Southern Passage Guardhouse that in in ruins, is the first Shipment Crate.
+                        <br>
+                        <span class="green">QUEST UPDATE: You have located one of the three Shipment Crates for Timothy Jager</span>
+                        Keep following the path south then west to find Shipment Crate 2 wtih in the ruins of Lanore.   
+                        <br>
+                        <span class="green">QUEST UPDATE: You have located one of the three Shipment Crates for Timothy Jager</span>
+                        <br>
+                        Circle around to the west side of the mountain to find Shipment Crate 3.
+                        <br>
+                        <span class="green">QUEST UPDATE: You have located the last Shipment Crate for Timothy Jager</span>
+                        Return to <span class="light-red">Timothy Jager</span>
+                        <br>
+                        <span class="green">QUEST UPDATE:</span><span class="red"> A Goblin Problem</span><span class="orange">, Return to Timothy Jager</span>
+                        <p>
+                          Return to <span class="light-red">Timothy Jager</span>, he thanks you for returning the supplies.
+                          The town can use these supplies in this time of need. He rewards you with a small amount of gold and a Belt
+                          recovered from the supply crates.
+                          <hr>  
+                          <ul>
+                            <li><i class="fas fa-caret-right"></i><span class="ml-2 green">50 Gold</span></li>
+                            <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Supply Runner's Belt</span></li>
+                            <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">1,050</strong> Experience pool <span class="light-red">experience may very</span></li>
+                          </ul>
+                          <hr>
+                          You earned a Supply Runner's Belt for returning the Supply Crates to Timothy Jager.
+                        </P>
+
+                        <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of A Goblin Problem -->
+                <div class="line"></div>
+                <!-- Start of Hell Hath no Fury  -->
+                <div class="card bg-secondary half-width mb-5">
+                  <div class="card-header">
+                    <h2 id="hellHathNoFury" class="anchor text-center">Hell Hath no Fury</h2>
+                  </div>
+                  <div>
+                    <div class="card-body">
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Difficulty</th>
+                            <th>Skills</th>                            
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>Apprentice</td>
+                            <td>None</td>
+                      </table>
+                      <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>NPC Quest Start</th>
+                            <th>Reward</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>A Young Maid<br>Cordinates:<br>Static <br>X:792 Y:159 Z:0</td> 
+                            <td>
+                              <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Jealousy_Amulet.png" alt="Jealousy Amulet" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Jealousy_Amulet_Stats.png' alt='Jealousy Amulet Stats'>">
+                            </td>                        
+                      </table>
+                      <hr>
+                      <p class="clearfix">
+                        <img class="npc-img" src="Images/Valinor/NPCS/A_Young_Maid.png" alt="A Young Maid">
+                        Speak to <span class="light-red">A Young Maid</span>, She is a jealous of Sarah Bent for taking her man.
+                        She would give anything for her Promise Ring that he gave her.
+                        Agree to get the Promise Ring.
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Hell Hath no Fury</span><span class="orange">, Bring Sarah's Promise Ring to the Young Maid in Valinor</span>
+                      </p>
+                      <p>
+                        You must have completed the quest "The Ring" and chose Option: 2 to receive Sarah's Promise Ring.
+                        Once you have the ring bring it to <span class="light-red">A Young Maid</span> to receive your reward.
+                        Drag the ring on to her. She gloats how she will wear it when she goes into Sarah's shop. 
+                          <hr>  
+                          <ul>
+                            <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Jealousy Amulet</span></li>
+                            <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">1,050</strong> Experience pool <span class="light-red">experience may very</span></li>
+                          </ul>
+                          <hr>
+                        </P>
+
+                        <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Hell hath no Fury  -->
+                <div class="line"></div>
+
+
+              </div>
+
+            
+            
+ 
+              <div class="line"></div>
+
+              <h2>Weapon Trainers</h2>
+              <!-- Start of Large Blades Trainer  -->
+              <div class="card bg-secondary half-width mb-5">
+                <div class="card-header">
+                  <h2 id="largeBladeTrainer" class="anchor text-center">Large Blades</h2>
+                </div>
+                <div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Difficulty</th>
+                          <th>Skills</th>                            
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Apprentice</td>
+                          <td>Combat</td>
+                    </table>
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>NPC Quest Start</th>
+                          <th>Reward</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Large Blade Trainer</td> 
+                          <td>
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Dull_Edged_Sword.png" alt="Dull Edged Sword" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Dull_Edged_Sword_Stats.jpg' alt='Dull Edged Sword Stats'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Poorly_Weighted_Claymore.png" alt="Dull Edged Sword" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Poorly_Weighted_Claymore_Stats.png' alt='Poorly Weighted Claymore Stats'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Sword_of_the_Island_Guard.png" alt="Sword of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Sword_of_the_Island_Guard_Stats.png' alt='Sword of the Island Guard Stats'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Gold.png" alt="Gold" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Gold_335.png' alt='Gold 335'>">
+                          </td>                        
+                    </table>
+                    <hr>
+                    <p class="clearfix">
+                      <img class="npc-img" src="Images/Valinor/NPCS/Large_Blades_Trainer.png" alt="Large Blades Trainer">
+                      Speak to <span class="light-red">Large Blades Trainer</span>, He will give you a Dull Edged Sword to complete the task to gain experience by slaying beasts and foul creatures, then return to be rewarded.
+                      <hr>  
+                          <ul>
+                            <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Dull Edged Sword</span></li>                            
+                          </ul>
+                          <hr>
+                      <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Large Blades</span><span class="orange">, Venture forth and gain experience with your sword.</span>
+                      <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 500 exp in Large Blades</span> <span class="ml-2 green">10 Gold</span></li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 700 exp in Large Blades</span> <span class="ml-2 green">Poorly Weighted Claymore</span></li></li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 900 exp in Large Blades</span> <span class="ml-2 green">25 Gold</span></li></li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 1100 exp in Large Blades</span> <span class="ml-2 green">50 Gold</span></li></li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 1500 exp in Large Blades</span> <span class="ml-2 green">100 Gold</span></li></li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 3000 exp in Large Blades</span> <span class="ml-2 green">150 Gold</span></li></li>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 5000 exp in Large Blades</span> <span class="ml-2 green">Sword of the Island Guard</span></li></li>
+                        </ul>
+                    </p>
+                    <p>
+                      
+                      <br>
+                      <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Large Blades</span><span class="orange">, Return to the Trainer for your next assignment.</span>
+                    </p>
+                    <p>
+                      <span class="light-red">Large Blades Trainer</span> will welcome you back and for accomplishing the task at hand. He gives you a reward for you efforts.
+                      You have received all the trainging he has to offer. He tells you that once you reach the mianland, seek out Bograhk, an Orc who lives in Krog for more training.
+                      <br>
+                      You have completed your training with Large Blades.
+                    </p>
+                    <p class="mt-4 py-3 text-center quest-complete">
+                    Quest Complete
+                  </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Large Blades Trainer  -->
+              <div class="line"></div>
+            <!-- Start of Blunt Weapon Trainer  -->
+            <div class="card bg-secondary half-width mb-5">
+              <div class="card-header">
+                <h2 id="bluntTrainer" class="anchor text-center">Blunts</h2>
+              </div>
+              <div>
+                <div class="card-body">
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Difficulty</th>
+                        <th>Skills</th>                            
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Apprentice</td>
+                        <td>Combat</td>
+                  </table>
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>NPC Quest Start</th>
+                        <th>Reward</th>
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Blunt Weapon Trainer</td> 
+                        <td>
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Flimsy_Club.png" alt="Dull Edged Sword" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Flimsy_Club_Stats.png' alt='Flimsy Club Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Wood_Chipped_Mace.png" alt="Dull Edged Sword" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Wood_Chipped_Mace_Stats.png' alt='Wood Chipped Mace Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Rust_Covered_Flail.png" alt="Sword of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Rust_Covered_Flail_Stats.png' alt='Rust Covered Flail Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Items/Gold.png" alt="Gold" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Gold_335.png' alt='Gold 335'>">
+                        </td>                        
+                  </table>
+                  <hr>
+                  <p class="clearfix">
+                    <img class="npc-img" src="Images/Valinor/NPCS/Blunt_Weapon_Trainer.png" alt="Blunt Trainer">
+                    Speak to <span class="light-red">Blunt Trainer</span>, He will give you a Flimsy Club to complete the task to gain experience by slaying beasts and foul creatures, then return to be rewarded.
+                    <hr>  
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Flimsy Club</span></li>                            
+                        </ul>
+                        <hr>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Blunts</span><span class="orange">, Venture forth and gain experience with your club.</span>
+                    <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 500 exp in Blunts</span> <span class="ml-2 green">10 Gold</span></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Second task Gain 700 exp in Blunts</span> <span class="ml-2 green">Wood Chipped Mace</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Third task Gain 900 exp in Blunts</span> <span class="ml-2 green">25 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fourth task Gain 1100 exp in Blunts</span> <span class="ml-2 green">50 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fifth task Gain 1500 exp in Blunts</span> <span class="ml-2 green">100 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Sixth task Gain 3000 exp in Blunts</span> <span class="ml-2 green">150 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Seventh task Gain 5000 exp in Blunts</span> <span class="ml-2 green">Rust Covered Flail</span></li></li>
+                      </ul>
+                  </p>
+                  <p>
+                    
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Blunt</span><span class="orange">, Return to the Trainer for your next assignment.</span>
+                  </p>
+                  <p>
+                    <span class="light-red">Blunt Trainer</span> will welcome you back and for accomplishing the task at hand. He gives you a reward for you efforts.
+                    You have received all the trainging he has to offer. He tells you that once you reach the mianland, seek out Bograhk, an Orc who lives in Krog for more training.
+                  <br>
+                  You have completed your training with Blunt Weapons.
+                  </p>
+                  <p class="mt-4 py-3 text-center quest-complete">
+                  Quest Complete
+                </p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Blunt Trainer  -->
+            <div class="line"></div> 
+            <!-- Start of Small Blades Trainer  -->
+            <div class="card bg-secondary half-width mb-5">
+              <div class="card-header">
+                <h2 id="smallBladesTrainer" class="anchor text-center">Small Blades</h2>
+              </div>
+              <div>
+                <div class="card-body">
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Difficulty</th>
+                        <th>Skills</th>                            
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Apprentice</td>
+                        <td>Combat</td>
+                  </table>
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>NPC Quest Start</th>
+                        <th>Reward</th>
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Small Blades Trainer</td> 
+                        <td>
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Rusty_Pocket_Knife.png" alt="Rusty Pocket Knife" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Rusty_Pocket_Knife_Stats.png' alt='Rusty Pocket Knife Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Lead_Dirk.png" alt="Lead Dirk" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Lead_Dirk_Stats.png' alt='Lead Dirk Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Woven_Blade.png" alt="Woven Blade" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Woven_Blade_Stats.png' alt='Woven Blade Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Items/Gold.png" alt="Gold" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Gold_335.png' alt='Gold 335'>">
+                        </td>                        
+                  </table>
+                  <hr>
+                  <p class="clearfix">
+                    <img class="npc-img" src="Images/Valinor/NPCS/Small_Blades_Trainer.png" alt="Small Blades Trainer">
+                    Speak to <span class="light-red">Small Blades Trainer</span>, He will give you a Rusty Pocket Knife to complete the task to gain experience by slaying beasts and foul creatures, then return to be rewarded.
+                    <hr>  
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Rusty Pocket Knife</span></li>                            
+                        </ul>
+                        <hr>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Small Blades</span><span class="orange">, Venture forth and gain experience with your dagger.</span>
+                    <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 500 exp in Small Blades</span> <span class="ml-2 green">10 Gold</span></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Second task Gain 700 exp in Small Blades</span> <span class="ml-2 green">Lead Dirk</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Third task Gain 900 exp in Small Blades</span> <span class="ml-2 green">25 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fourth task Gain 1100 exp in Small Blades</span> <span class="ml-2 green">50 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fifth task Gain 1500 exp in Small Blades</span> <span class="ml-2 green">100 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Sixth task Gain 3000 exp in Small Blades</span> <span class="ml-2 green">150 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Seventh task Gain 5000 exp in Small Blades</span> <span class="ml-2 green">Woven Blade</span></li></li>
+                      </ul>
+                  </p>
+                  <p>
+                    
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Small Blades</span><span class="orange">, Return to the Trainer for your next assignment.</span>
+                  </p>
+                  <p>
+                    <span class="light-red">Small Blades Trainer</span> will welcome you back and for accomplishing the task at hand. He gives you a reward for you efforts.
+                    You have received all the trainging he has to offer. He tells you that once you reach the mianland, seek out Bograhk, an Orc who lives in Krog for more training.
+                  <br>
+                  You have completed your training in Small Blades.
+                  </p>
+                  <p class="mt-4 py-3 text-center quest-complete">
+                  Quest Complete
+                </p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Small Blades Trainer  -->
+            <div class="line"></div>
+            <!-- Start of Axe Weapon Trainer  -->
+            <div class="card bg-secondary half-width mb-5">
+              <div class="card-header">
+                <h2 id="axeWeaponTrainer" class="anchor text-center">Axes</h2>
+              </div>
+              <div>
+                <div class="card-body">
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Difficulty</th>
+                        <th>Skills</th>                            
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Apprentice</td>
+                        <td>Combat</td>
+                  </table>
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>NPC Quest Start</th>
+                        <th>Reward</th>
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Axe Weapon Trainer</td> 
+                        <td>
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Dull_Bladed_Axe.png" alt="Dull Bladed Axe" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Dull_Bladed_Axe_Stats.png' alt='Dull Bladed Axe Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Large_Goblin_Scalper.png" alt="Large Goblin Scalper" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Large_Goblin_Scalper_Stats.png' alt='Large Goblin Scalper'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Island_Tomahawk.png" alt="Island Tomahawk" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Island_Tomahawk_Stats.png' alt='Island Tomahawk Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Items/Gold.png" alt="Gold" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Gold_335.png' alt='Gold 335'>">
+                        </td>                        
+                  </table>
+                  <hr>
+                  <p class="clearfix">
+                    <img class="npc-img" src="Images/Valinor/NPCS/Axe_Weapon_Trainer.png"alt="Axe Weapon Trainer">
+                    Speak to <span class="light-red">Axe Weapon Trainer</span>, He will give you a Dull Bladed Axe to complete the task to gain experience by slaying beasts and foul creatures, then return to be rewarded.
+                    <hr>  
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Dull Bladed Axe</span></li>                            
+                        </ul>
+                        <hr>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Axes</span><span class="orange">, Venture forth and gain experience with your axe.</span>
+                    <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 500 exp in Axes</span> <span class="ml-2 green">10 Gold</span></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Second task Gain 700 exp in Axes</span> <span class="ml-2 green">Large Goblin Scalper</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Third task Gain 900 exp in Axes</span> <span class="ml-2 green">25 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fourth task Gain 1100 exp in Axes</span> <span class="ml-2 green">50 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fifth task Gain 1500 exp in Axes</span> <span class="ml-2 green">100 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Sixth task Gain 3000 exp in Axes</span> <span class="ml-2 green">150 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Seventh task Gain 5000 exp in Axes</span> <span class="ml-2 green">Island Tomahawk</span></li></li>
+                      </ul>
+                  </p>
+                  <p>
+                    
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Axes</span><span class="orange">, Return to the Trainer for your next assignment.</span>
+                  </p>
+                  <p>
+                    <span class="light-red">Axe Weapon Trainer</span> will welcome you back and for accomplishing the task at hand. He gives you a reward for you efforts.
+                    You have received all the trainging he has to offer. He tells you that once you reach the mianland, seek out Bograhk, an Orc who lives in Krog for more training.
+                  <br>
+                  You have completed your training in Axes.
+                  </p>
+                  <p class="mt-4 py-3 text-center quest-complete">
+                  Quest Complete
+                </p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Axe Weapon Trainer  -->
+            <div class="line"></div>
+            <!-- Start of Polearms Trainer  -->
+            <div class="card bg-secondary half-width mb-5">
+              <div class="card-header">
+                <h2 id="polearmsTrainer" class="anchor text-center">Polearms</h2>
+              </div>
+              <div>
+                <div class="card-body">
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Difficulty</th>
+                        <th>Skills</th>                            
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Apprentice</td>
+                        <td>Combat</td>
+                  </table>
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>NPC Quest Start</th>
+                        <th>Reward</th>
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Polearms Trainer</td> 
+                        <td>
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Dull_Edged_Spear.png" alt="Dull Edged Spear" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Dull_Edged_Spear_Stats.png' alt='Dull Spear Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Rusty_Tipped_Spear.png" alt="Rusty Tipped Spear" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Rusty_Tipped_Spear_Stats.png' alt='Rusty Tipped Spear'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Island_Guard_Lance.png" alt="Island Guard Lance" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Island_Guard_Lance_Stats.png' alt='Island Guard Lance Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Items/Gold.png" alt="Gold" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Gold_335.png' alt='Gold 335'>">
+                        </td>                        
+                  </table>
+                  <hr>
+                  <p class="clearfix">
+                    <img class="npc-img" src="Images/Valinor/NPCS/Polearms_Trainer.png"alt="Polearms Trainer">
+                    Speak to <span class="light-red">Polearms Trainer</span>, He will give you a Dull Edged Spear to complete the task to gain experience by slaying beasts and foul creatures, then return to be rewarded.
+                    <hr>  
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Dull Edged Spear</span></li>                            
+                        </ul>
+                        <hr>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Polearms</span><span class="orange">, Venture forth and gain experience with your polearm.</span>
+                    <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 500 exp in Polearms</span> <span class="ml-2 green">10 Gold</span></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Second task Gain 700 exp in Polearms</span> <span class="ml-2 green">Rusty Tipped Spear</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Third task Gain 900 exp in Polearms</span> <span class="ml-2 green">25 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fourth task Gain 1100 exp in Polearms</span> <span class="ml-2 green">50 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fifth task Gain 1500 exp in Polearms</span> <span class="ml-2 green">100 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Sixth task Gain 3000 exp in Polearms</span> <span class="ml-2 green">150 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Seventh task Gain 5000 exp in Polearms</span> <span class="ml-2 green">Island Guard Lance</span></li></li>
+                      </ul>
+                  </p>
+                  <p>
+                    
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Polearms</span><span class="orange">, Return to the Trainer for your next assignment.</span>
+                  </p>
+                  <p>
+                    <span class="light-red">Polearms Trainer</span> will welcome you back and for accomplishing the task at hand. He gives you a reward for you efforts.
+                    You have received all the trainging he has to offer. He tells you that once you reach the mianland, seek out Bograhk, an Orc who lives in Krog for more training.
+                  <br>
+                  You have completed your training in Polearms.
+                  </p>
+                  <p class="mt-4 py-3 text-center quest-complete">
+                  Quest Complete
+                </p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Polearms Trainer  -->
+            <div class="line"></div>
+            <!-- Start of Unarmed Combat Trainer  -->
+            <div class="card bg-secondary half-width mb-5">
+              <div class="card-header">
+                <h2 id="unarmedCombatTrainer" class="anchor text-center">Unarmed Combat</h2>
+              </div>
+              <div>
+                <div class="card-body">
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Difficulty</th>
+                        <th>Skills</th>                            
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Apprentice</td>
+                        <td>Combat</td>
+                  </table>
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>NPC Quest Start</th>
+                        <th>Reward</th>
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Unarmed Combat Trainer</td> 
+                        <td>
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Old_Tekko.png" alt="Old Tekko" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Old_Tekko_Stats.png' alt='Old Tekko Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Worn_Kempo_Gloves.png" alt="Worn Kempo Gloves" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Worn_Kempo_Gloves_Stats.png' alt='Worn Kempo Gloves Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Rusty_Bladed_Bracers.png" alt="Rusty Bladed Bracers" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Rusty_Bladed_Bracers_Stats.png' alt='Rusty Bladed Bracers Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Items/Gold.png" alt="Gold" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Gold_335.png' alt='Gold 335'>">
+                        </td>                        
+                  </table>
+                  <hr>
+                  <p class="clearfix">
+                    <img class="npc-img" src="Images/Valinor/NPCS/Unarmed_Combat_Trainer.png"alt="Unarmed Combat Trainer">
+                    Speak to <span class="light-red">Unarmed Combat Trainer</span>, He will give you a Old Tekko to complete the task to gain experience by slaying beasts and foul creatures, then return to be rewarded.
+                    <hr>  
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Old Tekko</span></li>                            
+                        </ul>
+                        <hr>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Unarmed Combat</span><span class="orange">, Venture forth and gain experience with your polearm.</span>
+                    <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 500 exp in Unarmed Combat</span> <span class="ml-2 green">10 Gold</span></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Second task Gain 700 exp in Unarmed Combat</span> <span class="ml-2 green">Worn Kempo Gloves</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Third task Gain 900 exp in Unarmed Combat</span> <span class="ml-2 green">25 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fourth task Gain 1100 exp in Unarmed Combat</span> <span class="ml-2 green">50 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fifth task Gain 1500 exp in Unarmed Combat</span> <span class="ml-2 green">100 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Sixth task Gain 3000 exp in Unarmed Combat</span> <span class="ml-2 green">150 Gold</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Seventh task Gain 5000 exp in Unarmed Combat</span> <span class="ml-2 green">Rusty Bladed Bracers</span></li></li>
+                      </ul>
+                  </p>
+                  <p>
+                    
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Unarmed Combat</span><span class="orange">, Return to the Trainer for your next assignment.</span>
+                  </p>
+                  <p>
+                    <span class="light-red">Unarmed Combat Trainer</span> will welcome you back and for accomplishing the task at hand. He gives you a reward for you efforts.
+                    You have received all the trainging he has to offer. He tells you that once you reach the mianland, seek out Bograhk, an Orc who lives in Krog for more training.
+                  <br>
+                  You have completed your training in Polearms.
+                  </p>
+                  <p class="mt-4 py-3 text-center quest-complete">
+                  Quest Complete
+                </p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Unarmed Combat Trainer  -->
+            <div class="line"></div>
+            <!-- Start of Archery Trainer  -->
+            <div class="card bg-secondary half-width mb-5">
+              <div class="card-header">
+                <h2 id="archeryTrainer" class="anchor text-center">Bows</h2>
+              </div>
+              <div>
+                <div class="card-body">
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Difficulty</th>
+                        <th>Skills</th>                            
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Apprentice</td>
+                        <td>Combat</td>
+                  </table>
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>NPC Quest Start</th>
+                        <th>Reward</th>
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Archery Trainer</td> 
+                        <td>
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Flimsy_Short_Bow.png" alt="Flimsy Short Bow" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Flimsy_Short_Bow_Stats.png' alt='Flimsy Short Bow Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Short_Elm_Bow.png" alt="Short Elm Bow" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Short_Elm_Bow_Stats.png' alt='Short Elm Bow Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Island_Archers_Bow.png" alt="Island Archers Bow" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Island_Archers_Bow_Stats.png' alt='Island Archers Bow Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Arrows.png" alt="Arrows" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Arrows_Stats.png' alt='Arrows Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Items/Gold.png" alt="Gold" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Gold_335.png' alt='Gold 335'>">
+                        </td>                        
+                  </table>
+                  <hr>
+                  <p class="clearfix">
+                    <img class="npc-img" src="Images/Valinor/NPCS/Archery_Trainer.png"alt="Archery Trainer">
+                    Speak to <span class="light-red">Archery Trainer</span>, He will give you a Flimsy Short Bow to complete the task to gain experience by slaying beasts and foul creatures, then return to be rewarded.
+                    <hr>  
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Flimsy Short Bow / 100 Arrows</span></li>                            
+                        </ul>
+                        <hr>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Bows</span><span class="orange">, Venture forth and gain experience with your bow.</span>
+                    <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 500 exp in Bow</span> <span class="ml-2 green">10 Gold / 100 Arrows</span></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Second task Gain 700 exp in Bow</span> <span class="ml-2 green">25 Gold / 100 Arrows</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Third task Gain 900 exp in Bow</span> <span class="ml-2 green">Short Elm Bow / 100 Arrows</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fourth task Gain 1100 exp in Bow</span> <span class="ml-2 green">50 Gold / 100 Arrows</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fifth task Gain 1500 exp in Bow</span> <span class="ml-2 green">100 Gold / 100 Arrows</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Sixth task Gain 3000 exp in Bow</span> <span class="ml-2 green">150 Gold / 100 Arrows</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Seventh task Gain 5000 exp in Bow</span> <span class="ml-2 green">Island Archers Bow / 100 Arrows</span></li></li>
+                      </ul>
+                  </p>
+                  <p>
+                    
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Bows</span><span class="orange">, Return to the Trainer for your next assignment.</span>
+                  </p>
+                  <p>
+                    <span class="light-red">Archery Trainer</span> will welcome you back and for accomplishing the task at hand. He gives you a reward for you efforts.
+                    You have received all the trainging he has to offer. He tells you that once you reach the mianland, seek out Tilis Oakwoven, a Night Elf who lives in Whisperdale for more training.
+                  <br>
+                  You have completed your training in bows.
+                  </p>
+                  <p class="mt-4 py-3 text-center quest-complete">
+                  Quest Complete
+                </p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Archery Trainer  -->
+            <div class="line"></div>
+             <!-- Start of Crossbow Trainer  -->
+             <div class="card bg-secondary half-width mb-5">
+              <div class="card-header">
+                <h2 id="crossbowTrainer" class="anchor text-center">Crossbows</h2>
+              </div>
+              <div>
+                <div class="card-body">
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Difficulty</th>
+                        <th>Skills</th>                            
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Apprentice</td>
+                        <td>Combat</td>
+                  </table>
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>NPC Quest Start</th>
+                        <th>Reward</th>
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Crossbow Trainer</td> 
+                        <td>
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Small_Cedar_Crossbow.png" alt="Simple Cedar Crossbow" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Small_Cedar_Crossbow_Stats.png' alt='Simple Cedar Crossbow Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Well_Worn_Crossbow.png" alt="Well Worn Crossbow" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Well_Worn_Crossbow_Stats.png' alt='Well Worn Crossbow Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Stout_Crossbow.png" alt="Stout Crossbow" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Stout_Crossbow_Stats.png' alt='Stout Crossbow Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Bolts.png" alt="Arrows" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Bolts_Stats.png' alt='Bolts Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Items/Gold.png" alt="Gold" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Gold_335.png' alt='Gold 335'>">
+                        </td>                        
+                  </table>
+                  <hr>
+                  <p class="clearfix">
+                    <img class="npc-img" src="Images/Valinor/NPCS/Crossbow_Trainer.png"alt="Crossbow Trainer">
+                    Speak to <span class="light-red">Crossbow Trainer</span>, He will give you a Simple Cedar Crossbow to complete the task to gain experience by slaying beasts and foul creatures, then return to be rewarded.
+                    <hr>  
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Simple Cedar Crossbow / 100 Bolts</span></li>                            
+                        </ul>
+                        <hr>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Crossbows</span><span class="orange">, Venture forth and gain experience with your sling.</span>
+                    <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 500 exp in crossbows</span> <span class="ml-2 green">10 Gold / 100 Bolts</span></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Second task Gain 700 exp in crossbows</span> <span class="ml-2 green">Well Worn Crossbow / 100 Bolts</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Third task Gain 900 exp in crossbows</span> <span class="ml-2 green">25 Gold / 100 Bolts</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fourth task Gain 1100 exp in crossbows</span> <span class="ml-2 green">50 Gold / 100 Bolts</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fifth task Gain 1500 exp in crossbows</span> <span class="ml-2 green">100 Gold / 100 Bolts</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Sixth task Gain 3000 exp in crossbows</span> <span class="ml-2 green">150 Gold / 100 Bolts</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Seventh task Gain 5000 exp in crossbows</span> <span class="ml-2 green">Stout Crossbow / 100 Bolts</span></li></li>
+                      </ul>
+                  </p>
+                  <p>
+                    
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Crossbows</span><span class="orange">, Return to the Trainer for your next assignment.</span>
+                  </p>
+                  <p>
+                    <span class="light-red">Crossbow Trainer</span> will welcome you back and for accomplishing the task at hand. He gives you a reward for you efforts.
+                    You have received all the trainging he has to offer. He tells you that once you reach the mianland, seek out Tilis Oakwoven, a Night Elf who lives in Whisperdale for more training.
+                  <br>
+                  You have completed your training in crossbows.
+                  </p>
+                  <p class="mt-4 py-3 text-center quest-complete">
+                  Quest Complete
+                </p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Crossbow Trainer  -->
+            <div class="line"></div>
+            <!-- Start of Thrown Weapons Trainer  -->
+            <div class="card bg-secondary half-width mb-5">
+              <div class="card-header">
+                <h2 id="thrownWeaponsTrainer" class="anchor text-center">Thrown</h2>
+              </div>
+              <div>
+                <div class="card-body">
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Difficulty</th>
+                        <th>Skills</th>                            
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Apprentice</td>
+                        <td>Combat</td>
+                  </table>
+                  <table class="table table-sm table-bordered text-center">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>NPC Quest Start</th>
+                        <th>Reward</th>
+                      </thead>    
+                      </tr>
+                      <tr>
+                        <td>Thrown Weapons Trainer</td> 
+                        <td>
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Simple_String_Sling.png" alt="Simple String Sling" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Simple_String_Sling_Stats.png' alt='Simple String Sling Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Braided_Sling.png" alt="Braided Sling" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Braided_Sling_Stats.png' alt='Braided Sling Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Shepherds_Sling.png" alt="Shepherds Sling" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Shepherds_Sling_Stats.png' alt='Shepherds Sling Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Weapons/Pebbles.png" alt="Pebbles" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Weapons/Pebbles_Stats.png' alt='Pebbles Stats'>">
+                          <img class="thumbnail-img" src="Images/Valinor/Items/Items/Gold.png" alt="Gold" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Gold_335.png' alt='Gold 335'>">
+                        </td>                        
+                  </table>
+                  <hr>
+                  <p class="clearfix">
+                    <img class="npc-img" src="Images/Valinor/NPCS/Thrown_Weapons_Trainer.png"alt="Thrown Weapons Trainer">
+                    Speak to <span class="light-red">Thrown Weapons Trainer</span>, He will give you a Simple String Sling to complete the task to gain experience by slaying beasts and foul creatures, then return to be rewarded.
+                    <hr>  
+                        <ul>
+                          <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Simple String Sling / 100 Pebbles</span></li>                            
+                        </ul>
+                        <hr>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Thrown</span><span class="orange">, Venture forth and gain experience with your crossbow.</span>
+                    <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">First task Gain 500 exp in Thrown Weapons</span> <span class="ml-2 green">10 Gold / 100 Pebbles</span></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Second task Gain 700 exp in Thrown Weapons</span> <span class="ml-2 green">25 Gold / 100 Pebbles</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Third task Gain 900 exp in Thrown Weapons</span> <span class="ml-2 green">Braided Sling / 100 Pebbles</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fourth task Gain 1100 exp in Thrown Weapons</span> <span class="ml-2 green">50 Gold / 100 Pebbles</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Fifth task Gain 1500 exp in Thrown Weapons</span> <span class="ml-2 green">100 Gold / 100 Pebbles</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Sixth task Gain 3000 exp in Thrown Weapons</span> <span class="ml-2 green">150 Gold / 100 Pebbles</span></li></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2">Seventh task Gain 5000 exp in Thrown Weapons</span> <span class="ml-2 green">Shepherds Sling / 100 Pebbles</span></li></li>
+                      </ul>
+                  </p>
+                  <p>
+                    
+                    <br>
+                    <span class="green">QUEST RECEIVED:</span><span class="red"> Weapons Training - Thrown</span><span class="orange">, Return to the Trainer for your next assignment.</span>
+                  </p>
+                  <p>
+                    <span class="light-red">Thrown Weapons Trainer</span> will welcome you back and for accomplishing the task at hand. He gives you a reward for you efforts.
+                    You have received all the trainging he has to offer. He tells you that once you reach the mianland, seek out Tilis Oakwoven, a Night Elf who lives in Whisperdale for more training.
+                  <br>
+                  You have completed your training in Thrown Weapons.
+                  </p>
+                  <p class="mt-4 py-3 text-center quest-complete">
+                  Quest Complete
+                </p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Thrown Weapons Trainer  -->
+
+              <div class="line"></div>
+            
+            <footer class="jumbotron text-center">
+                <p>Designed by Keith Heffington</p>
+                <p>&copy; <span id="date"></span></p> 
+            </footer>
+
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="JS/data.js"></script>
+</body>
+
+</html>
+
+
+
