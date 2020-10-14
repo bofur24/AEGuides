@@ -100,6 +100,10 @@ a:focus {
     background-color: #3f3e3e;
 }
 
+.bg-main {
+    background-color: #52575c!important
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
