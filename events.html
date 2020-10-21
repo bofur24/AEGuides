@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>AEGuides | Guides</title>
+    <title>AEGuides | Events</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -27,7 +27,7 @@
         <!-- Sidebar  -->
         <nav id="sidebar" class="top-margin">
             <div>
-                <img src="Images/Logo/AE_Logo.PNG" style="width:100%">
+                <img src="Images/Logo/AE_Logo.png" style="width:100%">
             </div>
             <div class="sidebar-header">
                 <h3>AEGuides</h3>
@@ -38,16 +38,16 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li class="active">
-                    <a href="#guidesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Guides</a>
+                    <a href="#guidesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Items</a>
                     <ul class="collapse list-unstyled" id="guidesSubmenu">
                         <li>
-                            <a href="#startingGuide">Starting Guides</a>
+                            <a href="#thanksgiving">Thanksgiving</a>
                         </li>
                         <li>
-                            <a href="#townGuide">Town Guides</a>
+                            <a href="#halloween">Halloween</a>
                         </li>
                         <li>
-                            <a href="#questGuide">Quest Guides</a>
+                            <a href="#christmas">Christmas</a>
                         </li>
                     </ul>
                 </li>
@@ -87,31 +87,81 @@
                 </div>
             </nav>
 
-            <h1>Guides</h1>
+            <h1>Events</h1>
 
             <div class="line"></div>
 
-            <h2 id="startingGuide" class="anchor">Starting Guide</h2>
+            <!-- Start of Thanksgiving Event -->
+            <div class="card bg-secondary half-width mb-5">
+                <div class="card-header">
+                  <h2 id="thanksgiving" class="anchor text-center">Thanksgiving</h2>
+                </div>
+                <div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Skills</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Combat</td>                        
+                    </table>
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Monster</th>
+                          <th>Reward</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>
+                            Wild Turkey (lvl 30) 
+                            <br>
+                            Gobble Wobble (lvl 80)
+                          </td>
+                          <td>
+                          <img class="thumbnail-img" src="Images/Items/Totem_of_Thanksgiving.png" alt="Totem of Thanksgiving" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Items/Totem_of_Thanksgiving_Stats.png' alt='Totem of Thanksgiving Stats'>">
+                          <img class="thumbnail-img" src="Images/Items/Totem_of_the_Indian_Harvest.png" alt="Totem of the Indian Harvest" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Items/Totem_of_the_Indian_Harvest_Stats.png' alt='Totem of the Indian Harvest Stats'>">
+                          <img class="thumbnail-img" src="Images/Items/Totem_of_the_Turkey_Slayer.png" alt="Totem of the Turkey Slayer" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Items/Totem_of_the_Turkey_Slayer_Stats.png' alt='Totem of the Turkey Slayer Stats'>">
+                          <img class="thumbnail-img" src="Images/Items/Turkey_Trot_Totem.png" alt="Turkey Trot Totem" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Items/Turkey_Trot_Totem_Stats.png' alt='Turkey Trot Totem Stats'>">
+                         </td>                        
+                    </table>
+
+                    <hr>
+                    <p class="clearfix">                      
+                      <img class="npc-img" src="Images/NPC/Monsters/Wild_Turkey.png" alt="Wild Turkey">
+                      The event is just to kill Wild Turkies that spawn around the Mainlands. Killing them has a chace of dropping one of the four totems.<br>
+                      There is also a boss turkey named <span class="light-red">Gobble Wobble</span> that will spawn as well. There will be a message that gives you a hint to were the boss will spawn<br>
+                      <br>
+                      <img src="Images/SystemMessage/Thanksgiving_System_Message.png" alt="Thanksgiving System Message">                      
+                    </P>
+                    <p class="clearfix">  
+                      <img class="npc-img" src="Images/NPC/Monsters/Gobble_Wobble.png" alt="Gobble Wobble">
+                      <img src="Images/NPC/Monsters/Gobble_Wobble_Stats.png" alt="Gobble Wobble Stats">
+                      <br>
+                      Once you found and killed Gobble Wobble he will drop one of the four totems, and a few random items. 
+                      <br>
+                      There will also be another system message to let all know that Gobble Wobble has been slain.
+                      <br>
+                      <img src="Images/SystemMessage/Thanksgiving_Slain_System_Message.png" alt="Thanksgiving Slain System Message">  
+                  </p>
+
+                  </div>
+                </div>
+              </div>
+              <!-- End of Thanksgiving Event -->
+            
+            <div class="line"></div>
+
+            <h2 id="weapons" class="anchor">Halloween</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             
             <div class="line"></div>
 
-            <h2 id="townGuide" class="anchor">Town Guides</h2>
+            <h2 id="misc" class="anchor">Christmas</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button type="button" class="btn btn-dark"><a href="townGuides.html">Town Guides</a></button>
             
-            <div class="line"></div>
-
-            <h3 id="questGuide" class="anchor">Quest Guides</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button type="button" class="btn btn-dark"><a href="quest.html">Quest</a></button>
-
-            <div class="line"></div>
-
-            <h3 id="questGuide" class="anchor">Event Guides</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button type="button" class="btn btn-dark"><a href="events.html">Events</a></button>
-
             <div class="line"></div>
 
             <footer class="jumbotron text-center">
