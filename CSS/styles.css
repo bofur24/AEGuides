@@ -308,6 +308,25 @@ div.card-body li {
     margin: .5em;
 } */
 
+.img-small {
+    width: 75%;
+ }
+
+ .img-center {
+     margin: 0 auto;
+ }
+
+.ol-border {
+    border: 2px solid #0a7579;
+    width: 300px;
+    padding: 25px 0 0 0;
+    margin: 0;
+}
+
+ .li-border {
+    border-bottom: 2px solid #0a7579;
+    width: 200px;
+ }
 
 
 
@@ -344,6 +363,11 @@ div.card-body li {
     #content,
     .half-width {
         width: 100%;
+    }
+    
+    .img-small {
+        width: 100%;
+        margin: 0 auto;
     }
     
     #content.active {
