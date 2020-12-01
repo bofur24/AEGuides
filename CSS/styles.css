@@ -248,6 +248,11 @@ div.card-body span.light-red {
 
 }
 
+div.card-body span.light-green {
+    color: #31a6aa;
+
+}
+
 div.card-body strong.light-blue {
     color: #42cef1;
 }
