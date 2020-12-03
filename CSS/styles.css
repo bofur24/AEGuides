@@ -101,7 +101,11 @@ a:focus {
 }
 
 .bg-main {
-    background-color: #52575c!important
+    background-color: #3b3e41!important
+}
+
+hr {
+    border-bottom: 1px solid #31a6aa;
 }
 
 /* ---------------------------------------------------
