@@ -271,6 +271,16 @@ div.card-body li {
 
 }
 
+.popover-item-img {
+    height: 80px;
+    width: 80px;
+}
+
+.popover-item-tooltip-img {
+    height: 80px;
+    width: 150px;
+}
+
 .popover {
     background-color: #6c757d;
 }
