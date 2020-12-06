@@ -108,6 +108,16 @@ hr {
     border-bottom: 1px solid #31a6aa;
 }
 
+.stages {
+    color: #a77029;
+    width: 35%;
+    margin: 0  0 20px 30px;
+    padding: 0px 0 10px 10px;
+    border-bottom: 1px solid #2c71b1;
+    border-left: 1px dashed #2c71b1;    
+    
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
