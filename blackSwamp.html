@@ -186,10 +186,77 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container-fluid">
 
-                    <button type="button" id="sidebarCollapse" class="btn btn-dark">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-                    </button>
+                     <div class="d-lg-none" id="menu-container">
+                       <div id="menu-wrapper">
+                          <div id="hamburger-menu"><span></span><span></span><span></span></div>
+                          <!-- hamburger-menu -->
+                       </div>
+                       <!-- menu-wrapper -->
+                       <ul class="menu-list accordion">
+                          <li id="nav1" class="menu-size"> 
+                              <a class="menu-link" href="index.html">Home</a>
+                          </li>
+                          <li id="nav2" class="menu-size"> 
+                            <a class="menu-link" href="#blackSwampMap">Black Swamp Map</a>
+                          </li>
+                          <li id="nav3" class="toggle accordion-toggle"> 
+                             <span class="icon-plus"></span>
+                             <a class="menu-link" href="#">Krog Quest</a>
+                          </li>
+                          <!-- accordion-toggle -->
+                          <ul id="menu-scroll" class="menu-submenu accordion-content">
+                             <li><a class="head" href="#warriorOfKrog">Warrior of Krog</a></li>
+                             <li><a class="head" href="#leonardIsLost">Leonard is Lost</a></li>
+                             <li><a class="head" href="#reclaimingWhatsMine">Reclaiming Whats Mine</a></li>
+                             <li><a class="head" href="#formidableFormicidae">Formidable Formicidae</a></li>
+                             <li><a class="head" href="#stingOperation">Sting Operation</a></li>
+                             <li><a class="head" href="#protectKrog">Protect Krog</a></li>
+                             <li><a class="head" href="#treeTrouble">Tree Trouble</a></li>
+                             <li><a class="head" href="#swamped">Swamped</a></li>
+                          </ul>
+                          <!-- menu-submenu accordon-content-->
+                               <li id="nav4" class="toggle accordion-toggle"> 
+                             <span class="icon-plus"></span>
+                             <a class="menu-link" href="#">Maraket Quest</a>
+                          </li>
+                          <!-- accordion-toggle -->
+                          <ul class="menu-submenu accordion-content">
+                             <li><a class="head" href="#"></a></li>
+                             <li><a class="head" href="#"></a></li>
+                             <li><a class="head" href="#"></a></li>
+                             <li><a class="head" href="#"></a></li>
+                          </ul>
+                         <!-- menu-submenu accordon-content-->
+                         <li id="nav6" class="toggle accordion-toggle"> 
+                          <span class="icon-plus"></span>
+                          <a class="menu-link" href="#">Samad Quest</a>
+                         </li>
+                         <!-- accordion-toggle -->
+                         <ul class="menu-submenu accordion-content">
+                          <li><a class="head" href="#"></a></li>
+                          <li><a class="head" href="#"></a></li>
+                          <li><a class="head" href="#"></a></li>
+                          <li><a class="head" href="#"></a></li>
+                         </ul>
+                         <!-- menu-submenu accordon-content-->
+                         <li id="nav7" class="toggle accordion-toggle"> 
+                          <span class="icon-plus"></span>
+                          <a class="menu-link" href="#">Combat Trainers</a>
+                         </li>
+                         <!-- accordion-toggle -->
+                         <ul class="menu-submenu accordion-content">
+                          <li><a class="head" href="#theArtOfCombat">The Art of Combat</a></li>
+                          <li><a class="head" href="#honorInBattle">Honor in Battle</a></li>
+                          <li><a class="head" href="#keepItSharp">Keep it Sharp</a></li>
+                          <li><a class="head" href="#crushSkulls">Crush Skulls</a></li>
+                          <li><a class="head" href="#stayBack">Stay Back</a></li>
+                          <li><a class="head" href="#"></a></li>
+                          <li><a class="head" href="#"></a></li>
+                         </ul>
+                       </ul>
+                       <!-- menu-list accordion-->
+                    </div>
+                    <!-- menu-container -->
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button>
@@ -938,6 +1005,8 @@
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery CDN - Hamburger Menu -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->

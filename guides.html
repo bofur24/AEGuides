@@ -60,10 +60,32 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container-fluid">
 
-                    <button type="button" id="sidebarCollapse" class="btn btn-dark">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-                    </button>
+                    <div class="d-lg-none" id="menu-container">
+                        <div id="menu-wrapper">
+                           <div id="hamburger-menu"><span></span><span></span><span></span></div>
+                           <!-- hamburger-menu -->
+                        </div>
+                        <!-- menu-wrapper -->
+                        <ul class="menu-list accordion">
+                           <li id="nav1" class="menu-size"> 
+                               <a class="menu-link" href="index.html">Home</a>
+                           </li>
+                           <!-- menu-submenu accordon-content-->
+                           <li id="nav2" class="toggle accordion-toggle"> 
+                              <span class="icon-plus"></span>
+                              <a class="menu-link" href="#guides">Guides</a>
+                           </li>
+                           <!-- accordion-toggle -->
+                           <ul class="menu-submenu accordion-content">
+                              <li><a class="head" href="#startingGuide">Starting Guides</a></li>
+                              <li><a class="head" href="#questGuide">Quest Guides</a></li>
+                              <li><a class="head" href="#townGuide">Town Guides</a></li>
+                              <li><a class="head" href="#eventGuide">Event Guides</a></li>
+                           </ul>
+                        </ul>
+                        <!-- menu-list accordion-->
+                    </div>
+                     <!-- menu-container -->
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button>
@@ -90,19 +112,19 @@
 
             <div class="line"></div>
 
-            <h3 id="questGuide" class="anchor">Quest Guides</h3>
+            <h3 id="questGuide" class="anchor">Quest Guide</h3>
             <p>Valinor quest guide is complete <br> Working on Black Swamp</p>
             <button type="button" class="btn btn-dark"><a href="quest.html">Quest</a></button>
 
             <div class="line"></div>
             
-            <h2 id="townGuide" class="anchor">Town Guides</h2>
+            <h2 id="townGuide" class="anchor">Town Guide</h2>
             <p>Coming Soon</p>
             <button type="button" class="btn btn-dark"><a href="#">Town Guides</a></button>
                         
             <div class="line"></div>
 
-            <h3 id="questGuide" class="anchor">Event Guides</h3>
+            <h3 id="eventGuide" class="anchor">Event Guide</h3>
             <p>Thanksgiving event is up, Halloween, and Christmas coming soon</p>
             <button type="button" class="btn btn-dark"><a href="events.html">Events</a></button>
 
@@ -117,6 +139,8 @@
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery CDN - Hamburger Menu -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->

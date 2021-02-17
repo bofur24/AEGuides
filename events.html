@@ -60,10 +60,31 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container-fluid">
 
-                    <button type="button" id="sidebarCollapse" class="btn btn-dark">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-                    </button>
+                    <div class="d-lg-none" id="menu-container">
+                        <div id="menu-wrapper">
+                           <div id="hamburger-menu"><span></span><span></span><span></span></div>
+                           <!-- hamburger-menu -->
+                        </div>
+                        <!-- menu-wrapper -->
+                        <ul class="menu-list accordion">
+                           <li id="nav1" class="menu-size"> 
+                               <a class="menu-link" href="index.html">Home</a>
+                           </li>
+                           <!-- menu-submenu accordon-content-->
+                           <li id="nav2" class="toggle accordion-toggle"> 
+                              <span class="icon-plus"></span>
+                              <a class="menu-link" href="#">Events</a>
+                           </li>
+                           <!-- accordion-toggle -->
+                           <ul class="menu-submenu accordion-content">
+                              <li><a class="head" href="#thanksgiving">Thanksgiving</a></li>
+                              <li><a class="head" href="#halloween">Halloween</a></li>
+                              <li><a class="head" href="#christmas">Christmas</a></li>
+                           </ul>
+                        </ul>
+                        <!-- menu-list accordion-->
+                     </div>
+                     <!-- menu-container -->
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button>
@@ -142,15 +163,15 @@
                     </div>
                   </div>
                 </div>
-                <!-- End of Kumba's Pendant -->
+                <!-- End Thanksgiving -->
                 <div class="line"></div>
             
-            <h2 id="weapons" class="anchor">Halloween</h2>
+                <h2 id="Halloween" class="anchor text-center">Thanksgiving</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             
             <div class="line"></div>
 
-            <h2 id="misc" class="anchor">Christmas</h2>
+            <h2 id="christmas" class="anchor text-center">Christmas</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             
             <div class="line"></div>
@@ -164,6 +185,8 @@
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery CDN - Hamburger Menu -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
