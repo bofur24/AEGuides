@@ -267,7 +267,8 @@ div.card-body span.light-green {
 
 }
 
-div.card-body strong.light-blue {
+div.card-body strong.light-blue,
+div.card-body span.light-blue {
     color: #42cef1;
 }
 
