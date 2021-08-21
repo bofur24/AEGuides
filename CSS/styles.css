@@ -340,10 +340,16 @@ div.card-body li {
 
 .img-small {
     width: 75%;
+
  }
 
- .img-center {
+
+.img-center {
      margin: 0 auto;
+ }
+
+ .img-map-height {
+     height: 200px;
  }
 
 .ol-border {
