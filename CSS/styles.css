@@ -89,6 +89,12 @@ a:focus {
     border-bottom: 1px solid #ddd;
 }
 
+.space {
+    width: 100%;
+    height: 1px;
+    margin: 15px 0;
+}
+
 
 .body-bg
 {
