@@ -220,6 +220,34 @@ a.article:hover {
     right: 0;
 }
 
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-wrapper div {
+    margin: 5px 10px;
+}
+
+.flex-wrapper div a:hover {
+    color: #fff;
+}
+
+.flex-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.num-color {
+    color: #42cef1; 
+}
+
 .top-margin {
     margin-top: 65px;
 }
