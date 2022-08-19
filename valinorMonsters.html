@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ashen Empires Guides">
+    <meta name="keywords" content="Ashen Empires, Quest, Guides, Role Playing, MMORPG">
+    <meta name="author" content="Keith Heffington">
+
+    <title>AEGuides | Valinor Quest</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="body-bg"> 
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" class="top-margin">
+            <div>
+                <img src="Images/Logo/AE_Logo.png" style="width:100%">
+            </div>
+            <div class="sidebar-header">
+                <h3>AEGuides</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="#valinorMonsters">Valinor Monsters</a>
+              </li>
+                <li>
+                    <a href="#animalsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Animal</a>
+                    <ul class="collapse list-unstyled" id="animalsSubmenu">
+                        <li>
+                          <a href="#bull">Bull</a>
+                        </li>
+                        <li>
+                            <a href="#chicken">Chicken</a>
+                        </li>
+                        <li>
+                            <a href="#cow">Cow</a>
+                        </li>
+                        <li>
+                            <a href="#dairyCow">Dairy Cow</a>
+                        </li>
+                        <li>
+                            <a href="#grassViper">grass Viper</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                  <a href="#goblinSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Goblin</a>
+                  <ul class="collapse list-unstyled" id="goblinSubmenu">
+                      <li>
+                          <a href="#goblinCarpenter">Goblin Carpenter</a>
+                      </li>
+                      <li>
+                          <a href="#goblinFarmer">Goblin Farmer</a>
+                      </li>
+                      <li>
+                          <a href="#goblinLeatherworker">Goblin Leatherworker</a>
+                      </li>
+                      <li>
+                          <a href="#goblinRunt">Goblin Runt</a>
+                      </li>
+                      <li>
+                        <a href="#goblinShamanRunt">Goblin Shaman Runt</a>
+                      </li>
+                      <li>
+                        <a href="#goblinWorker">Goblin Worker</a>
+                      </li>
+                      <li>
+                        <a href="#hobgoblinBlacksmith">Hobgoblin Blacksmith</a>
+                      </li>
+                      <li>
+                        <a href="#youngHobgoblin">Young Hobgoblin</a>
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                <a href="#insectSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Insect</a>
+                <ul class="collapse list-unstyled" id="insectSubmenu">
+                    <li>
+                        <a href="#dredgeSpider">Dredge Spider</a>
+                    </li>
+                    <li>
+                        <a href="#spider">Spider</a>
+                    </li>
+                    <li>
+                        <a href="#triddle">Triddle</a>
+                    </li>
+                </ul>
+            </li>
+              <li>
+                <a href="#undeadSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Undead</a>
+                <ul class="collapse list-unstyled" id="undeadSubmenu">
+                    <li>
+                        <a href="#skeletalApprentice">Skeletal Apprentice</a>
+                    </li>
+                    <li>
+                        <a href="#skeletalPup">Skeletal Pup</a>
+                    </li>
+                    <li>
+                        <a href="#smallSkeleton">Small Skeleton</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+              <a href="#verminSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Vermin</a>
+              <ul class="collapse list-unstyled" id="verminSubmenu">
+                  <li>
+                      <a href="#bat">Bat</a>
+                  </li>
+                  <li>
+                      <a href="#snake">Snake</a>
+                  </li>
+              </ul>
+          </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="top-margin">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+
+                     <div class="d-lg-none" id="menu-container">
+                       <div id="menu-wrapper">
+                          <div id="hamburger-menu"><span></span><span></span><span></span></div>
+                          <!-- hamburger-menu -->
+                       </div>
+                       <!-- menu-wrapper -->
+                       <ul class="menu-list accordion">
+                             <li id="nav1" class="menu-size"> 
+                                 <a class="menu-link" href="index.html">Home</a>
+                             </li>
+                             <li id="nav2" class="menu-size"> 
+                              <a class="menu-link" href="#valinorMonsters">Valinor Monsters</a>
+                          </li>
+                             <!-- menu-submenu accordon-content-->
+                             <li id="nav3" class="toggle accordion-toggle"> 
+                              <span class="icon-plus"></span>
+                              <a class="menu-link" href="#">Animal</a>
+                           </li>
+                           <!-- accordion-toggle -->
+                           <ul class="menu-submenu accordion-content">
+                              <li><a class="head" href="#bull">Bull</a></li>
+                              <li><a class="head" href="#chicken">Chicken</a></li>
+                              <li><a class="head" href="#cow">Cow</a></li>
+                              <li><a class="head" href="#dairyCow">Dairy Cow</a></li>
+                              <li><a class="head" href="#grassViper">Grass Viper</a></li>
+                           </ul>
+                           <!-- menu-submenu accordon-content-->
+                           <li id="nav4" class="toggle accordion-toggle"> 
+                             <span class="icon-plus"></span>
+                             <a class="menu-link" href="#">Goblin</a>
+                          </li>
+                          <!-- accordion-toggle -->
+                          <ul class="menu-submenu accordion-content">
+                             <li><a class="head" href="#goblinCarpenter">Goblin Carpenter</a></li>
+                             <li><a class="head" href="#goblinFarmer">Goblin Farmer</a></li>
+                             <li><a class="head" href="#goblinLeatherworker">Goblin Leatherworker</a></li>
+                             <li><a class="head" href="#goblinRunt">Goblin Runt</a></li>
+                             <li><a class="head" href="#goblinShamanRunt">Goblin Shaman Runt</a></li>
+                             <li><a class="head" href="#goblinWorker">Goblin Worker</a></li>
+                             <li><a class="head" href="#hobgoblinBlacksmith">Hobgoblin Blacksmith</a></li>
+                             <li><a class="head" href="#youngHobgoblin">Young Hobgoblin</a></li>
+                          </ul>
+                          <!-- menu-submenu accordon-content-->
+                          <li id="nav5" class="toggle accordion-toggle"> 
+                           <span class="icon-plus"></span>
+                           <a class="menu-link" href="#">Insect</a>
+                        </li>
+                        <!-- accordion-toggle -->
+                        <ul class="menu-submenu accordion-content">
+                           <li><a class="head" href="#dredgeSpider">Dredge Spider</a></li>
+                           <li><a class="head" href="#spider">Spider</a></li>
+                           <li><a class="head" href="#triddle">Triddle</a></li>
+                        </ul>
+                         <!-- menu-submenu accordon-content-->
+                         <li id="nav6" class="toggle accordion-toggle"> 
+                          <span class="icon-plus"></span>
+                          <a class="menu-link" href="#">Undead</a>
+                       </li>
+                       <!-- accordion-toggle -->
+                       <ul class="menu-submenu accordion-content">
+                          <li><a class="head" href="#skeletalApprentice">Skeletal Apprentice</a></li>
+                          <li><a class="head" href="#skeletalPup">Skeletal Pup</a></li>
+                          <li><a class="head" href="#smallSkeleton">Small Skeleton</a></li>
+                       </ul>
+                       <!-- menu-submenu accordon-content-->
+                       <li id="nav7" class="toggle accordion-toggle"> 
+                        <span class="icon-plus"></span>
+                        <a class="menu-link" href="#">Vermin</a>
+                     </li>
+                     <!-- accordion-toggle -->
+                     <ul class="menu-submenu accordion-content">
+                        <li><a class="head" href="#bat">Bat</a></li>
+                        <li><a class="head" href="#snake">Snake</a></li>
+                     </ul>
+                  
+                      </ul>
+                       
+                       <!-- menu-list accordion-->
+                    </div>
+                    <!-- menu-container -->
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="guides.html">Guides</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div>
+              <!-- Valinor Monsters -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h1 id="valinorMonsters" class="anchor text-center">Valinor Monsters</h1>
+                </div>
+                
+                <div class="flex-wrapper text-center">
+                  <a class="border-box" href="#bat">
+                  <div >
+                    <p>Bat</p>
+                    <img class="npc-img" src="Images/Valinor/Monsters/HunterBook/Bat_Hunter.png" alt="Bat">  
+                  </div>
+                  </a>
+                  <a class="border-box" href="#bull">
+                  <div >
+                    <p>Bull</p>
+                    <img class="npc-img" src="Images/Valinor/Monsters/HunterBook/Bull_Hunter.png" alt="Bull">  
+                  </div>
+                  </a>
+                  <a class="border-box" href="#chicken">
+                  <div >
+                    <p>Chicken</p>
+                    <img class="npc-img" src="Images/Valinor/Monsters/HunterBook/Chicken_Hunter.png" alt="Chicken">  
+                  </div>
+                  </a>
+                  <a class="border-box" href="#cow">
+                  <div >
+                    <p>Cow</p>
+                    <img class="npc-img" src="Images/Valinor/Monsters/HunterBook/Cow_Hunter.png" alt="Cow">  
+                  </div>
+                  </a>
+                  <a class="border-box" href="#dairyCow">
+                  <div >
+                    <p>Dairy Cow</p>
+                    <img class="npc-img" src="Images/Valinor/Monsters/HunterBook/Dairy_Cow_Hunter.png" alt="Dairy Cow">  
+                  </div>
+                  </a>
+                  <a class="border-box" href="#dredgeSpider">
+                  <div >
+                    <p>Dredge Spider</p>
+                    <img class="npc-img" src="Images/Valinor/Monsters/HunterBook/Dredge_Spider_Hunter.png" alt="Dredge Spider">  
+                  </div>
+                  </a>
+                  <a class="border-box" href="#dredgeSpider">
+                  <div >
+                    <p>Goblin Carpenter</p>
+                    <img class="npc-img" src="Images/Valinor/Monsters/HunterBook/Goblin_Carpenter_Hunter.png" alt="Goblin Carpenter">  
+                  </div>
+                  </a>
+                
+                </div>  
+              </div>
+              <!-- End of Valinor Monsters -->
+              
+  
+              <div class="line"></div>
+              <h2>Monsters</h2>
+              <!-- Start of Bat -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="bat" class="anchor text-center">Bat</h2>
+                </div>
+                <div class="flex-container">
+                  <div>
+                    <img src="Images/Valinor/Monsters/HunterBook/Bat_HunterBook.png" alt="Bat Hunter Book">  
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Level</th>
+                            <th>Type</th>
+                            <th>Boss</th>
+                            <th>Drops</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>
+                              1
+                            </td>
+                            <td>
+                              Vermin                         
+                            </td>
+                            <td>
+                              No
+                            </td>
+                            <td>
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard.png" alt="Tunic of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard_Stats.png' alt='Tunic of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Smock_of_the_Island_Guard.png" alt="Smock of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Smock_of_the_Island_Guard_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Pants.png" alt="Pants" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Pants_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Boots_of_the_Island_Guard.png" alt="Boots of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Boots_of_the_island_Guard_Stats.png' alt='Boots of the Island Guard'>"> 
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Sextant.png" alt="Sextant" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Sextant_Stats.png' alt='Boots of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Large_Knapsack.png" alt="Large Knapsack" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Large_Knapsack_Stats.png' alt='Boots of the Island Guard'>">
+                            <br>                         
+                          </td>                        
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Bat -->
+              <!-- Start of Bull -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="bull" class="anchor text-center">Bull</h2>
+                </div>
+                <div class="flex-container">
+                  <div>
+                    <img src="Images/Valinor/Monsters/HunterBook/Bull_HunterBook.png" alt="Bull Hunter Book">  
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Level</th>
+                            <th>Type</th>
+                            <th>Boss</th>
+                            <th>Drops</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>
+                              7
+                            </td>
+                            <td>
+                              Animal                         
+                            </td>
+                            <td>
+                              No
+                            </td>
+                            <td>
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard.png" alt="Tunic of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard_Stats.png' alt='Tunic of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Smock_of_the_Island_Guard.png" alt="Smock of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Smock_of_the_Island_Guard_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Pants.png" alt="Pants" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Pants_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Boots_of_the_Island_Guard.png" alt="Boots of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Boots_of_the_island_Guard_Stats.png' alt='Boots of the Island Guard'>"> 
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Sextant.png" alt="Sextant" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Sextant_Stats.png' alt='Boots of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Large_Knapsack.png" alt="Large Knapsack" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Large_Knapsack_Stats.png' alt='Boots of the Island Guard'>">
+                            <br>                         
+                          </td>                        
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Bull -->
+              <!-- Start of Chicken -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="chicken" class="anchor text-center">Chicken</h2>
+                </div>
+                <div class="flex-container">
+                  <div>
+                    <img src="Images/Valinor/Monsters/HunterBook/Chicken_HunterBook.png" alt="Chicken Hunter Book">  
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Level</th>
+                            <th>Type</th>
+                            <th>Boss</th>
+                            <th>Drops</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>
+                              1
+                            </td>
+                            <td>
+                              Animal                         
+                            </td>
+                            <td>
+                              No
+                            </td>
+                            <td>
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard.png" alt="Tunic of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard_Stats.png' alt='Tunic of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Smock_of_the_Island_Guard.png" alt="Smock of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Smock_of_the_Island_Guard_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Pants.png" alt="Pants" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Pants_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Boots_of_the_Island_Guard.png" alt="Boots of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Boots_of_the_island_Guard_Stats.png' alt='Boots of the Island Guard'>"> 
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Sextant.png" alt="Sextant" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Sextant_Stats.png' alt='Boots of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Large_Knapsack.png" alt="Large Knapsack" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Large_Knapsack_Stats.png' alt='Boots of the Island Guard'>">
+                            <br>                         
+                          </td>                        
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Chicken -->
+              <!-- Start of Cow -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="cow" class="anchor text-center">Cow</h2>
+                </div>
+                <div class="flex-container">
+                  <div>
+                    <img src="Images/Valinor/Monsters/HunterBook/Cow_HunterBook.png" alt="Cow Hunter Book">  
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Level</th>
+                            <th>Type</th>
+                            <th>Boss</th>
+                            <th>Drops</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>
+                              1
+                            </td>
+                            <td>
+                              Animal                         
+                            </td>
+                            <td>
+                              No
+                            </td>
+                            <td>
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard.png" alt="Tunic of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard_Stats.png' alt='Tunic of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Smock_of_the_Island_Guard.png" alt="Smock of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Smock_of_the_Island_Guard_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Pants.png" alt="Pants" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Pants_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Boots_of_the_Island_Guard.png" alt="Boots of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Boots_of_the_island_Guard_Stats.png' alt='Boots of the Island Guard'>"> 
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Sextant.png" alt="Sextant" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Sextant_Stats.png' alt='Boots of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Large_Knapsack.png" alt="Large Knapsack" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Large_Knapsack_Stats.png' alt='Boots of the Island Guard'>">
+                            <br>                         
+                          </td>                        
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Cow -->
+              <!-- Start of Dairy Cow -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="dairyCow" class="anchor text-center">Dairy Cow</h2>
+                </div>
+                <div class="flex-container">
+                  <div>
+                    <img src="Images/Valinor/Monsters/HunterBook/Dairy_Cow_HunterBook.png" alt="Dairy Cow Hunter Book">  
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Level</th>
+                            <th>Type</th>
+                            <th>Boss</th>
+                            <th>Drops</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>
+                              1
+                            </td>
+                            <td>
+                              Animal                         
+                            </td>
+                            <td>
+                              No
+                            </td>
+                            <td>
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard.png" alt="Tunic of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard_Stats.png' alt='Tunic of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Smock_of_the_Island_Guard.png" alt="Smock of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Smock_of_the_Island_Guard_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Pants.png" alt="Pants" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Pants_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Boots_of_the_Island_Guard.png" alt="Boots of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Boots_of_the_island_Guard_Stats.png' alt='Boots of the Island Guard'>"> 
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Sextant.png" alt="Sextant" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Sextant_Stats.png' alt='Boots of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Large_Knapsack.png" alt="Large Knapsack" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Large_Knapsack_Stats.png' alt='Boots of the Island Guard'>">
+                            <br>                         
+                          </td>                        
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Dairy Cow -->
+              <!-- Start of Dredge Spider -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="dredgeSpider" class="anchor text-center">Dredge Spider</h2>
+                </div>
+                <div class="flex-container">
+                  <div>
+                    <img src="Images/Valinor/Monsters/HunterBook/Dredge_Spider_HunterBook.png" alt="Dredge Spider Hunter Book">  
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Level</th>
+                            <th>Type</th>
+                            <th>Boss</th>
+                            <th>Drops</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>
+                              1
+                            </td>
+                            <td>
+                              Animal                         
+                            </td>
+                            <td>
+                              No
+                            </td>
+                            <td>
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard.png" alt="Tunic of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard_Stats.png' alt='Tunic of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Smock_of_the_Island_Guard.png" alt="Smock of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Smock_of_the_Island_Guard_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Pants.png" alt="Pants" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Pants_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Boots_of_the_Island_Guard.png" alt="Boots of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Boots_of_the_island_Guard_Stats.png' alt='Boots of the Island Guard'>"> 
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Sextant.png" alt="Sextant" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Sextant_Stats.png' alt='Boots of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Large_Knapsack.png" alt="Large Knapsack" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Large_Knapsack_Stats.png' alt='Boots of the Island Guard'>">
+                            <br>                         
+                          </td>                        
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Dairy Cow -->
+              <!-- Start of Goblin Runt -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="goblinCarpenter" class="anchor text-center">Goblin Carpenter</h2>
+                </div>
+                <div class="flex-container">
+                  <div>
+                    <img src="Images/Valinor/Monsters/HunterBook/Goblin_Carpenter_HunterBook.png" alt="Goblin Runt Hunter Book">  
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Level</th>
+                            <th>Type</th>
+                            <th>Boss</th>
+                            <th>Drops</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>
+                              7
+                            </td>
+                            <td>
+                              Goblin                        
+                            </td>
+                            <td>
+                              Yes
+                            </td>
+                            <td>
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard.png" alt="Tunic of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard_Stats.png' alt='Tunic of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Smock_of_the_Island_Guard.png" alt="Smock of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Smock_of_the_Island_Guard_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Pants.png" alt="Pants" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Pants_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Boots_of_the_Island_Guard.png" alt="Boots of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Boots_of_the_island_Guard_Stats.png' alt='Boots of the Island Guard'>"> 
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Sextant.png" alt="Sextant" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Sextant_Stats.png' alt='Boots of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Large_Knapsack.png" alt="Large Knapsack" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Large_Knapsack_Stats.png' alt='Boots of the Island Guard'>">
+                            <br>                         
+                          </td>                        
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Goblin Runt -->
+              <!-- Start of Goblin Runt -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="goblinRunt" class="anchor text-center">Goblin Runt</h2>
+                </div>
+                <div class="flex-container">
+                  <div>
+                    <img src="Images/Valinor/Monsters/HunterBook/Goblin_Runt_HunterBook.png" alt="Goblin Runt Hunter Book">  
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                        <thead class="thead-light">
+                          <tr>
+                            <th>Level</th>
+                            <th>Type</th>
+                            <th>Boss</th>
+                            <th>Drops</th>
+                          </thead>    
+                          </tr>
+                          <tr>
+                            <td>
+                              3
+                            </td>
+                            <td>
+                              Goblin                         
+                            </td>
+                            <td>
+                              No
+                            </td>
+                            <td>
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard.png" alt="Tunic of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Tunic_of_the_Island_Guard_Stats.png' alt='Tunic of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Smock_of_the_Island_Guard.png" alt="Smock of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Smock_of_the_Island_Guard_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Pants.png" alt="Pants" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Pants_Stats.png' alt='pants'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Armor/Boots_of_the_Island_Guard.png" alt="Boots of the Island Guard" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Armor/Boots_of_the_island_Guard_Stats.png' alt='Boots of the Island Guard'>"> 
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Sextant.png" alt="Sextant" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Sextant_Stats.png' alt='Boots of the Island Guard'>">
+                            <img class="thumbnail-img" src="Images/Valinor/Items/Items/Large_Knapsack.png" alt="Large Knapsack" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/Valinor/Items/Items/Large_Knapsack_Stats.png' alt='Boots of the Island Guard'>">
+                            <br>                         
+                          </td>                        
+                      </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Goblin Runt -->
+              <div class="line"></div>
+
+            </div>
+            
+
+         
+            <!-- Main Content -->
+        <div>
+
+            <footer class="jumbotron text-center">
+              <a href="https://keithheffington.com" target="_blank"><p>Designed by Keith Heffington</p></a>
+                <p>&copy; <span id="date"></span></p> 
+            </footer>
+
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery CDN - Hamburger Menu -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="JS/data.js"></script>
+</body>
+
+</html>
+
+
+

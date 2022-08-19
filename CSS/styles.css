@@ -391,6 +391,17 @@ div.card-body li {
     border-bottom: 2px solid #0a7579;
 }
 
+.border-box {
+    border: 2px solid #ddbf38e5;
+    padding: 10px;
+    background-color: #504d4d;
+    margin: 5px;
+}
+
+.border-box:hover {
+    background-color: #6c757d;
+}
+
 
 
 
