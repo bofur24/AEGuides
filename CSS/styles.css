@@ -243,10 +243,13 @@ a.article:hover {
     height: auto;
   }
 
-.num-color {
+.num-color-teal {
     color: #42cef1; 
 }
 
+.num-color-red {
+    color: #FF0000;
+}
 .top-margin {
     margin-top: 65px;
 }
