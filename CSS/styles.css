@@ -373,7 +373,6 @@ div.card-body li {
 
  }
 
-
 .img-center {
      margin: 0 auto;
  }
@@ -642,6 +641,7 @@ div.card-body li {
         justify-content: space-around;
         align-items: center;
     }
+
 }
 
 /* test */
