@@ -351,6 +351,10 @@ div.card-body li {
     margin-right: 5px; 
 }
 
+.monster-img {
+    cursor: pointer;
+}
+
 .npc-img {
     float: left;
 }
@@ -402,6 +406,10 @@ div.card-body li {
 
 .border-box:hover {
     background-color: #6c757d;
+}
+
+.player-text-color {
+    color: #9ebfdd;
 }
 
 
