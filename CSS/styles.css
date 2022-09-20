@@ -345,17 +345,22 @@ div.card-body li {
 }
 
 .npc-img,
-.monster-img {
+.monster-img,
+.monster-img-first {
     border-radius: 10%;
     border: 2px solid #ddbf38e5 ;
-    margin-right: 5px; 
+    margin-right: 20px; 
+    margin-bottom: 5px;
+    
 }
 
-.monster-img {
+.monster-img,
+.monster-img-first {
     cursor: pointer;
 }
 
-.npc-img {
+.npc-img,
+.monster-img-first {
     float: left;
 }
 
@@ -411,7 +416,6 @@ div.card-body li {
 .player-text-color {
     color: #9ebfdd;
 }
-
 
 
 
