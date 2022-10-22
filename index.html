@@ -221,6 +221,77 @@
 
             <div class="body-line"></div>
             <article>
+              <small class="article-date">Burning Spear 9/29/2022</small>
+              <p>
+                Some more minor improvements account for experiences around the support for arbitrary resizing of the windowed client as well as windowless fullscreen mode added to fullscreen exclusive mode.
+              </p>
+             ===Changes===
+             <ul>
+              <li>Minimize box was inadvertently removed, is now added again</li>
+              <li>Alt-Tab will minimize the fullscreen exclusive window again</li>
+              <li>SHIFT-ALT-ENTER will toggle fullscreen eclusive mode</li>
+              <li>Documented ALT-ENTER (windowless fullscreen) and SHIFT-ALT-ENTER (fullscreen exclusive) on Video Options</li>
+             </ul>
+             <p>
+              Thanks for the feedback.
+             </p>
+            </article>
+            <div class="body-line"></div>
+            <article>
+              <small class="article-date">Burning Spear 9/28/2022</small>
+              <p>
+               This address a few UI issues discovered with the various changes that were made in the last patch.
+              </p>
+              ===HOTFIX===
+              <ol>
+                <li>800x600 allowed (for those with bot like eyes)</li>
+                <li>fixed screen size being left large when leaving fullscreen windowless</li>
+                <li>fixed absurd video resolution selection</li>
+                <li>fixed video settings toggle state beging wrong when fullscreen mode changes via hotkeys or system.</li>
+              </ol>
+              <p>
+                Thanks for the feedback.
+              </p>
+            </article>
+            <div class="body-line"></div>
+            <article>
+              <small class="article-date">Burning Spear 9/28/2022</small>
+              <p>
+                We are hearing some reports of the UI resetting instead of converting. Our apologies if this impacts you. We tested this thoroughly with dozens of players multiple times but there must be some scenarios we weren't able to reprogram.
+              </p>
+            </article>
+            <div class="body-line"></div>
+            <article>
+              <small class="article-date">Burning Spear 9/28/2022</small>
+              <p>
+                This update is focused on the video adapter issues and some other UI annoyances that people have reported. For new players, the launch and into game experience should be smoother.
+                For existing players, your existing UI resolution will be used as the basis for in game location changes described below.
+              </p>
+              ===Enhancements===
+              <ul>
+                <li>Windowed mode is resizable by grabbing the edges of the window frame or right click titlebar</li>
+                <li>The minimum window size (windowed mode is 1024x768 + window frame</li>
+                <li>Default new character UI revamped for 1024x768 courtesy of Era (Big Thanks!)</li>
+                <li>Fullscreen exclusive mode is supported (video settings)</li>
+                <li>Game windows remember their state for 3 modes (windowed, FS windowless, FS exclusive)</li>
+                <li>GlobalSettings.ini and UiConfig.ini are versioned (old/stale settings removed)</li>
+              </ul>              
+              ===Bug Fixes===
+              <ul>
+                <li>Hotbar hotslot items are grey when they shouldn't be</li>
+                <li>Title screen images are wrped or clipped for some screen sizes</li>
+                <li>PlayArea no longer squishes when grabbing titlebar and bumping an edge/dragging</li>
+                <li>Game freezes on launch for some video adapters</li>
+                <li>Skills window doesn't remember its width</li>
+                <li>Games freezes when resuming from screensaver</li>
+                <li>Video settings update their state when you change them in the menu</li>
+              </ul>
+              <p>
+                Thanks for your patience as we worked through these defects. Special thanks to all the help from testers who helped track down these pesky problems that weren't always easily repeatable.
+              </p>
+            </article>
+            <div class="body-line"></div>
+            <article>
               <small class="article-date">FujiQ 9/21/2022</small>
               <p>
 
