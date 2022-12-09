@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ashen Empires Guides">
+    <meta name="keywords" content="Ashen Empires, Quest, Guides, Role Playing, MMORPG">
+    <meta name="author" content="Keith Heffington">
+
+    <title>AEGuides | Highland Quest</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1161268854435841"
+     crossorigin="anonymous"></script>
+</head>
+
+<body class="body-bg"> 
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" class="top-margin">
+            <div>
+                <img src="Images/Logo/AE_Logo.png" style="width:100%">
+            </div>
+            <div class="sidebar-header">
+                <h3>AEGuides</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="#highlandsMap">Highlands Map</a>
+                </li>
+                <li>
+                    <a href="#dawatSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Dawat</a>
+                    <ul class="collapse list-unstyled" id="dawatSubmenu">
+                        <li>
+                          <a href="#heroOfDawat">Hero of Dawat</a>
+                        </li>
+                        <li>
+                          <a href="#hauntedHouse">Haunted House</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                  <a href="#ardaSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Arda</a>
+                  <ul class="collapse list-unstyled" id="ardaSubmenu">
+                    <li>
+                      <a href="#">a</a>
+                  </li>
+                  <li>
+                    <a href="#">b</a>
+                </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#parianSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Parian</a>
+                  <ul class="collapse list-unstyled" id="samadSubmenu">
+                      <li>
+                          <a href="#">A</a>
+                      </li>
+                      <li>
+                        <a href="#">B</a>
+                    </li>
+                    <li>
+                      <a href="#">C</a>
+                  </li>
+                  </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="top-margin">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+
+                     <div class="d-lg-none" id="menu-container">
+                       <div id="menu-wrapper">
+                          <div id="hamburger-menu"><span></span><span></span><span></span></div>
+                          <!-- hamburger-menu -->
+                       </div>
+                       <!-- menu-wrapper -->
+                       <ul class="menu-list accordion">
+                          <li id="nav1" class="menu-size"> 
+                              <a class="menu-link" href="index.html">Home</a>
+                          </li>
+                          <li id="nav2" class="menu-size"> 
+                            <a class="menu-link" href="#highlandsMap">Highlands Map</a>
+                          </li>
+                          <li id="nav3" class="toggle accordion-toggle"> 
+                             <span class="icon-plus"></span>
+                             <a class="menu-link" href="#">Dawat</a>
+                          </li>
+                          <!-- accordion-toggle -->
+                          <ul id="menu-scroll" class="menu-submenu accordion-content">
+                             <li><a class="head" href="#heroOfDawat">Hero of Dawat</a></li>
+                             <li><a class="head" href="#hauntedHouse">Haunted House</a></li>
+                          </ul>
+                          <!-- menu-submenu accordon-content-->
+                               <li id="nav4" class="toggle accordion-toggle"> 
+                             <span class="icon-plus"></span>
+                             <a class="menu-link" href="#">Arda</a>
+                          </li>
+                          <!-- accordion-toggle -->
+                          <ul class="menu-submenu accordion-content">
+                             <li><a class="head" href="#">A</a></li>
+                          </ul>
+                         <!-- menu-submenu accordon-content-->
+                         <li id="nav6" class="toggle accordion-toggle"> 
+                          <span class="icon-plus"></span>
+                          <a class="menu-link" href="#">Parian</a>
+                         </li>
+                         <!-- accordion-toggle -->
+                         <ul class="menu-submenu accordion-content">
+                          <li><a class="head" href="#">A</a></li>
+                         </ul>
+                       </ul>
+                       <!-- menu-list accordion-->
+                    </div>
+                    <!-- menu-container -->
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="quest.html">Quest</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div>
+              <!-- Quest Map and Location -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h1 id="highlandsMap" class="anchor text-center">highlands</h1>
+                </div>
+                <div>
+                  <div class="card-body img-card-body">
+                    
+                    <img class="img-small img-center" src="" alt="Highlands Map">
+                    
+                    <hr>
+                    <div>
+                      <h2 id="questNpcs" class="anchor text-center">Dawat</h2>
+                    </div>
+                    <div class="flex-wrapper">
+                      <div>
+                        <img class="npc-img img-map-height" src="" alt="Dawat Map">                        
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+                             
+                <div class="flex-wrapper">
+                  
+                  <div>
+                    <p><a href="#heroOfDawat"><span class="num-color-teal">1.</span> Shargar</a></p>
+                    <img class="npc-img" src="Images/HighLands/Hero_of_Dawat_Shargar.png" alt="Shargar">  
+                  </div>
+                  <div>
+                    <p><a href="#hauntedHouse"><span class="num-color-teal">2.</span> Dawat Worker</a></p>
+                    <img class="npc-img" src="Images/HighLands/Haunted_House_Dawat_Worker.png" alt="Dawat Worker">  
+                  </div>
+                  
+                </div> 
+                <hr>
+             </div>
+              <!-- End of Dawat Map and NPCs -->
+              
+  
+              <div class="line"></div>
+            </div>
+       
+            <!-- Main Content -->
+            <div>
+              <!-- Start of Hero of Dawat -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="heroOfDawat" class="anchor text-center">Hero of Dawat</h2>
+                </div>
+                <div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Quest Log</th>
+                          <th>Location</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Highland</td>
+                          <td>Dawat</td>                        
+                    </table>
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Difficulty</th>
+                          <th>Skills</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Apprentice</td>
+                          <td>Combat</td>                        
+                    </table>
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>NPC Quest Start</th>
+                          <th>Reward</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>
+                            Shargar
+                          </td>
+
+                          <td>
+                          <img class="thumbnail-img" src="Images/HighLands/Hero_of_Dawat_Hero_of_Dawat.png" alt="" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/HighLands/Hero_of_Dawat_Hero_of_Dawat_Stats.png' alt='Hero of Dawat Stats'>">                        
+                          <br>                        
+                        </td>                        
+                    </table>
+
+                    <hr>
+                    <p class="clearfix">
+                        <img class="npc-img" src="Images/HighLands/Hero_of_Dawat_Shargar.png" alt="Shargar">
+                        <span class="light-red">Shargar:</span> New to Dawat? Be on guard. Strange things northwest of town. New evil cult formed. They stooge around like hyena. Look for new followers. Always need new blood to replace sacrifices. I ask for your strength now. Young Orcs not care when I ask. They no listen 'til too late.
+                        <br>
+                        <span class="green">Player:</span> <span class="player-text-color"> Yes! I will quell their evil.</span> 
+                        <br>
+                        <span class="light-red">Shargar:</span> Good! Good news. You set good example. must stay near Dawat, not wander off to easy Cultists in other lands. 
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Hero of Dawat</span><span class="orange">, After speaking to Shargar in Dawat, you vowed to kill 50 Cultists!</span>
+                      </p>
+                    <hr>
+                    <p class="clearfix">  
+                      <img class="monster-img" src="Images/NPC/Monsters/Cultist.png" alt="Cultist" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/NPC/Monsters/Cultist_Stats.png' alt='Cultist Stats'>">
+                      <img class="img-small img-center" src="Images/HighLands/Hero_of_Dawat_Cultists_Location.png" alt="Cultists Location Map">
+                      <br>
+                     Head out to the northwest of town to find the <span class="red">Cultist</span>. You will need to kill them with in the coordinates for them to cout as a kill for Shargar. 
+                     You will be updated as you kill them, <span class="green">QUEST UPDATE: You have killed 50 Cultists!</span>
+                     When you have killed all 50 you will be updated to return to Shargar.
+                     <br>                                           
+                     <span class="green">QUEST UPDATE:</span><span class="red"> Hero of Dawat</span><span class="orange">, Return to Shargar in Dawat to collect your reward!</span>
+                    </p>
+                    <hr>
+                    <p>
+                      <span class="light-red">Shargar:</span> Good! You made dent in evil...maybe no new followers, hmm? reward for you now! come back, work more. Shargar pay well.
+                      <br>
+                      <span class="green">QUEST UPDATE:</span><span class="red"> Hero of Dawat</span><span class="orange">, You cleared the cultists away from the area</span>
+                    </p>
+                      <hr>
+                      <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Gold Received: 500</span></li>
+                        <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">27,500</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                      </ul>
+                      <hr>  
+                    <p>
+                      <span class="light-red">Shargar:</span> I go bragging about you, but learn bad news. Cultist not hurting yet. Have big bosses, Cult Leaders, they wear purple robes... Cut off the head, body falls. All warrior know that. Go seek leaders out.. They near Cultists
+                      <br>
+                      <span class="green">QUEST UPDATE:</span><span class="red"> Hero of Dawat</span><span class="orange">, Kill 75 Cult Leaders for Shargar.</span>
+                    </p>
+                    <hr>
+                    <p class="clearfix">  
+                      <img class="monster-img" src="Images/NPC/Monsters/Cult_Leader.png" alt="Cult Leader" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/NPC/Monsters/Cultist__Leader_Stats.png' alt='Cultist Leader Stats'>">
+                      <br>
+                     Head out to the northwest of town to find the <span class="red">Cultist Leaders</span>. You will be updated as you kill them, <span class="green">QUEST UPDATE: You have killed 75 Cult Leaders for Shargar!</span>
+                     When you have killed all 75 you will be updated to return to Shargar.
+                     <br>                                           
+                     <span class="green">QUEST UPDATE:</span><span class="red"> Hero of Dawat</span><span class="orange">, Return to Shargar in Dawat to collect your reward!</span>
+                    </p>
+                    <hr>
+                    <p>
+                      <span class="light-red">Shargar:</span> Good, good. You show these young Orc what hero is. Here is reward! Come back. More work! Live in dark times.
+                      <br>
+                      <span class="green">QUEST UPDATE:</span><span class="red"> Hero of Dawat</span><span class="orange">, You eradicated the Cult Leaders for Shargar.</span>
+                    </p>
+                      <hr>
+                      <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Gold Received: 750</span></li>
+                        <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">41,250</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                      </ul>                      
+                      <hr>
+                      <p>
+                        <span class="light-red">Shargar:</span><span class="orange"> *The Orc Glares*</span> I happy to see you, but now even more problems to northwest. When cut a tree throns grow up in the sun. Cultist cut back. Now Thieves set up shop in abandoned warehouse below Abbey.
+                        You cannot stop now. Must stop thieves. Kill them. 
+                        <br>
+                        <span class="green">QUEST UPDATE:</span><span class="red"> Hero of Dawat</span><span class="orange">, Kill 100 Thieves for Shargar in the warehouse south of the Abbey.</span>
+                      </p>
+                      <hr>
+                      <p class="clearfix">  
+                        <img class="monster-img" src="Images/NPC/Monsters/Thief.png" alt="Thief" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/NPC/Monsters/Thief_Stats.png' alt='Thief Stats'>">
+                        <br>
+                       Head out to the northwest of town to find the warehouse with the <span class="red">Thieves</span>. You will be updated as you kill them, <span class="green">QUEST UPDATE: You have killed 100 Thieves for Shargar!</span>
+                       When you have killed all 100 you will be updated to return to Shargar.
+                       <br>                                           
+                       <span class="green">QUEST UPDATE:</span><span class="red"> Hero of Dawat</span><span class="orange">, Return to Shargar in Dawat to collect your reward!</span>
+                      </p>
+                      <hr>
+                      <p>
+                        <span class="light-red">Shargar:</span> Good work. You brave warrior. Here is reward. Shargar always pay...
+                        <br>
+                        <span class="green">QUEST UPDATE:</span><span class="red"> Hero of Dawat</span><span class="orange">, You killed thieves for Shargar.</span>
+                      </p>
+                      <hr>
+                      <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Gold Received: 1,000</span></li>
+                        <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">13,750</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                      </ul>                      
+                      <hr>
+                      <p>
+                        <span class="light-red">Shargar:</span><span class="orange"> *Shargar wears a mean scowl*</span> I telling little Orcs story of your might. You battle wicked, bad men. These little orclets not impressed.
+                        Think you not able to do battle with Andreev. Andreev the ringleader. Kill Andreev ...perhaps thieves stop raiding Dawat...
+                        
+                        <br>
+                        <span class="green">QUEST UPDATE:</span><span class="red"> Hero of Dawat</span><span class="orange">, Take down Andreev the Quick, the leader of the Thieves.</span>
+                      </p>
+                      <hr>
+                      <p class="clearfix">  
+                        <img class="monster-img" src="Images/NPC/Boss/Andreev_the_Quick.png" alt="Andreev The Quick" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/NPC/Boss/Andreev_the_Quick_Stats.png' alt='Andreev the Quick Stats'>">
+                        <br>
+                       Head out to the northwest of town to find the warehouse with <span class="red">Andreev the Quick</span>. Kill him then return to Shargar for your reward.
+                       <br>                                           
+                       <span class="green">QUEST UPDATE:</span><span class="red"> Hero of Dawat</span><span class="orange">, You've defeated Andreev the Quick. Return to Shargar in Dawat to collect your reward!</span>
+                      </p>
+                      <hr>
+                      <p>
+                        <span class="light-red">Shargar:</span> Dawat feels safer! You true friend of Dawat. Saved many tossing around nights. Now even little Orcs playing pretend hero games. Wear badge proudly in our town...
+                      </p>
+                      <hr>
+                      <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2 green">ITEM RECEIVED: Hero of Dawat</span></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2 green">GOLD RECEIVED: 2,000</span></li>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2 green">Your faction ranking with Krog has increased by 700!</span></li>
+                        <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">82,500</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                      </ul>      
+                      <hr>
+                    <p>    
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                       
+                  </div>
+                </div>
+              </div>
+              <!-- End of Hero of Dawat -->
+              <div class="line"></div>              
+              <!-- Start of Haunted House -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="hauntedHouse" class="anchor text-center">Haunted House</h2>
+                </div>
+                <div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Quest Log</th>
+                          <th>Location</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Highland</td>
+                          <td>Dawat</td>                        
+                    </table>
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Difficulty</th>
+                          <th>Skills</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Apprentice</td>
+                          <td>Combat</td>                        
+                    </table>
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>NPC Quest Start</th>
+                          <th>Reward</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>
+                            Dawat Worker
+                          </td>
+
+                          <td>
+                          <img class="thumbnail-img" src="Images/HighLands/haunted_House_Rusty_Workers_Shovel.png" alt="Shovel" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/HighLands/haunted_House_Rusty_Workers_Shovel_Stats.png' alt='Rusty Workers Shovel Stats'>">                        
+                          <br>                        
+                        </td>                        
+                    </table>
+
+                    <hr>
+                    <p class="clearfix">
+                        <img class="npc-img" src="Images/HighLands/Haunted_House_Dawat_Worker.png" alt="Dawat Worker">
+                        <span class="light-red">Dawat Worker:</span> Me sent to build guard house for bridge... It go north of road. I not know house was on old burial ground. Now ghosts have taken over and me not able to build house. Get rid of ghost for me and I be happy...                        <br>
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Haunted House</span><span class="orange">, Clear 50 Ghost from the guard house found west of Dawat.</span>
+                      </p>
+                    <hr>
+                    <p class="clearfix">  
+                      <img class="monster-img" src="Images/NPC/Monsters/Ghost.png" alt="Cultist" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/NPC/Monsters/Ghost_Stats.png' alt='Ghost Stats'>">
+                      <img class="img-small img-center" src="Images/HighLands/Haunted_House.png" alt="Ghost Location Map">
+                      <br>
+                     Head north to find the <span class="red">Ghost</span>. You will need to kill them with in the coordinates for them to cout as a kill for the Dawat Worker. 
+                     You will be updated as you kill them <span class="green">QUEST UPDATE: You have killed 50 Ghost</span>
+                     When you have killed all 50 you will be updated to return to the Dawat Worker.
+                     <br>                                           
+                     <span class="green">QUEST UPDATE:</span><span class="red"> Haunted House</span><span class="orange">, You have banished 50 ghosts for the worker. Return to Dawat.</span>
+                    </p>
+                    <hr>
+                    <p>
+                      <span class="light-red">Dawat Worker:</span> Thank you! I will try again to build guard house for bridge! I not have much for reward. Take this old shovel. Perhaps use to grow apples! Me Like Apples...
+                      <br>
+                    </p>
+                      <hr>
+                      <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2 green">ITEM RECEIVED: Rusty Worker's Shovel</span></li>
+                        <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">41,250</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                      </ul>
+                      <hr>  
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                       You have banished the ghosts from the guard house.
+                  </div>
+                </div>
+              </div>
+              <!-- End of Haunted House -->
+              <div class="line"></div>            
+              <!-- Start of Sweet Relief -->
+              <div class="card bg-main half-width mb-5">
+                <div class="card-header">
+                  <h2 id="hauntedHouse" class="anchor text-center">Sweet Relief</h2>
+                </div>
+                <div>
+                  <div class="card-body">
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Quest Log</th>
+                          <th>Location</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Highland</td>
+                          <td>Dawat</td>                        
+                    </table>
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Difficulty</th>
+                          <th>Skills</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>Apprentice</td>
+                          <td>Travel</td>                        
+                    </table>
+                    <table class="table table-sm table-bordered text-center">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>NPC Quest Start</th>
+                          <th>Reward</th>
+                        </thead>    
+                        </tr>
+                        <tr>
+                          <td>
+                            Sweetness
+                          </td>
+
+                          <td>
+                          <img class="thumbnail-img" src="Images/HighLands/Sweet_Relief_Gloves_of_Sleight.png" alt="" tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" data-content="<img class='popover-img' src='Images/HighLands/Sweet_Relief_Gloves_of_Sleight_Stats.png' alt='Gloves of Sleight Stats'>">                        
+                          <br>                        
+                        </td>                        
+                    </table>
+
+                    <hr>
+                    <p class="clearfix">
+                        <img class="npc-img" src="Images/HighLands/Sweet_Relief_Sweetness.png" alt="Rooster Sweetness">
+                        <span class="light-red">Sweetness:</span> Cluck..help...cluck
+                        <br>
+                        <span class="green">Player:</span> <span class="player-text-color"> Are you talking to me?</span> 
+                        <br>
+                        <span class="light-red">Sweetness:</span> baKAWK! ..Hel...CUCK!...help me...please! Just hear me out! BAKAWK!
+                        <br>
+                        <span class="green">Player:</span> <span class="player-text-color"> How can I help you?</span> 
+                        <br>
+                        <span class="light-red">Sweetness:</span> I need your ...cluck...help. That scum Arvanion in Arda C-c-c-CLUCK!...caught me trying to steal corn...cluck. He had one of his alchemists create a potion that turned me into a rooster!...cluck...I only wanted a little corn;
+                        I was so hungry! I...baKSAWK...manage to escape and made my way here to Dawat..cluck...I've been trying to figure out a way to turn myself back to a human, but no one will listen to me, let alone...cluck..help me. Even the orcs don't pay me any mind. That's probably why 
+                        they haven't tried to eat me; they think a talking rooster is funny... baKAWK!
+                        <br>
+                        <span class="green">Player:</span> <span class="player-text-color"> That's harsh punishment for stealing corn.</span> 
+                        <br>
+                        <span class="light-red">Sweetness:</span> That's what I thought!...bawk...But my pleas fell on deaf ears. Now I need someone to help me, act as my emissary...CLUCK!...escuse me. Here's what I need you to do.
+                        <br>
+                        <span class="green">Player:</span> <span class="player-text-color"> I'm listening.</span> 
+                        <br>
+                        <span class="light-red">Sweetness:</span> I hear tale of a flower that grows in Parian called a 'Withering Flower'. It has magnificent healing properties. When c-c-c-CLUCK!...cons med, it regenerates the body and the soul. If I could get a potion created from this flower, 
+                        it may turn me back into human. The bad news is I have no idea where to find it. However, the good news is I know someone who may. ... ... ..BAKAWK!... There is a waitress in the tavern named <span class="light-red">Diega</span>. I've heard she used to be quite the alch..alch...alCLUC!...alchemist in 
+                        training, and has knowledge of plants and other ingredients for making potions. She should be able to help you. I would go myself but we've already been over the talking rooster bit. I need you to go for me. Plus, I don't fancy my chances making it to Parian in one piece, 
+                        what with all the nasties out and about. Find Diega at the tavern in Parian..cluck!
+                        <br>
+                        <span class="green">QUEST RECEIVED:</span><span class="red"> Sweet Relief</span><span class="orange">, Find Diega at the tavern in Parian.</span>
+                      </p>
+                    <hr>
+                    <p class="clearfix">  
+                      <img class="npc-img" src="Images/HighLands/Sweet_Relief_Diega.png" alt="Diega">
+                      <img class="" src="Images/HighLands/Sweet_Relief_Rose_Location.png" alt="Rose Location" width="250px">
+                      <br>
+                     Follow the road to the east then north back to the west to arrive at Parian. Diega is at location <span class="num-color-teal">1</span> on the above map.
+                     <br> 
+                     <span class="light-red">Diega:</span> What can I do for ya, hon?
+                     <br>
+                     <span class="green">Player:</span> <span class="player-text-color"> A rooster sent me.</span> 
+                     <br>
+                     <span class="light-red">Diega:</span> Him again? What is he trying to get you to fetch for him? Magic corn? A bottle of Magic Ale? I swear, that rooster dupes more fools... Sigh..So, what does he want? Hm? A potion made from a flower? I don't know how many times I have to say, 
+                     'I'm a bartender, not an alchemist'! You know he's just a talking rooster don't you? Every couple weeks he dupes someone into coming to Parian and fetching him something. Usually booze, because he claims it will turn him human. And why he always gripes about Aranion I'll never know. 
+                     I swear that rooster has never even been to Arda... a sucker is born every minute, eh? Whatever. Look I'm really busy right now, so if you want a flower try looking in the garden in the northern part of town. I've got to get to work. If you bring the flower to me, I'll make a 'potion' out of it... sigh.
+                     <br>                                          
+                     <span class="green">QUEST UPDATE:</span><span class="red"> Sweet Relief</span><span class="orange">, Check the garden in northern Parian for the Withering Flower.</span>
+                    </p>
+                    <hr>
+                    <p>
+                      Following the above map the number<span>2</span> location to find the withering flower. <img src="" alt="Withering Flower"> Take the flower, you will be updated to take the flower to Diega.
+                      <br>                                          
+                     <span class="green">QUEST UPDATE:</span><span class="red"> Sweet Relief</span><span class="orange">, Take the flower to Diega.</span>
+                    </p>
+                    <hr>
+                    <p>
+                      <span class="light-red">Diega:</span> Great...you're back...Did you find the flower? Give me a moment and I will grind this up...mix it with a little ale...and a dash of cinnamon. That rooster hates cimmamon. Here you go. And please, for the love of the gods, tell that rooster to stop sending people to pester me while I am working.
+                      <br>
+                      <span class="green">QUEST UPDATE:</span><span class="red"> Sweet Relief</span><span class="orange">, Bring the potion to Sweetness in Dawat.</span>
+                    </p>
+                    <p>
+                      <span class="light-red">Sweetness:</span> BaKAWK! Finally! Did she give you the potion? Give it to me! Gulp...gulp...cluck!..that's good stuff...ECK! Cinammon! I hate cinnamon!...cluck...nice kick to it though.... ... cluck... cluck... Why are you still here? I guess you want something for the trouble?
+                      Let's see what I have lying around here. .. here, I stole these out of some farmer's shed. They look like they will fit you. Now let me enjoy my drink in peace.
+                    </p>
+                      <hr>
+                      <ul>
+                        <li><i class="fas fa-caret-right"></i><span class="ml-2 green">ITEM RECEIVED: Gloves of Sleight</span></li>
+                        <li><i class="fas fa-caret-right"></i><strong class="ml-2 light-blue">1,650</strong> Experience Pool <span class="light-red">experience may very</span></li>
+                      </ul>
+                      <hr>  
+                    <p class="mt-4 py-3 text-center quest-complete">
+                      Quest Complete
+                    </p>
+                       You are given Gloves of Sleight
+                       <br>
+                       Swetness goes back to nursing his drink, oblivious of your presence.
+                  </div>
+                </div>
+              </div>
+              <!-- End of Haunted House -->
+
+
+
+             
+         
+
+
+
+
+              <footer class="jumbotron text-center">
+              <a href="https://keithheffington.com" target="_blank"><p>Designed by Keith Heffington</p></a>
+                <p>&copy; <span id="date"></span></p> 
+            </footer>
+
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery CDN - Hamburger Menu -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="JS/data.js"></script>
+</body>
+
+</html>
+
+
+
