@@ -241,13 +241,628 @@
             </article> -->
             <div class="body-line"></div>
             <article>
-              <small class="article-date">FujiQ 1/6/2023</small>
+              <small class="article-date">FujiQ 1/14/2023</small>
               <p>
-               A
+               The SoC update
               </p>
-             ===A===
+              <p>
+                A rework and update of one of the iconic expansions for Ashen Empires - Sands of Creation. This content has been due for an updated to bring it in line with the rest of the game experience. We focused on improving map design and item stats/drops to help more groups progress through content.
+                A new NPC - the Shadow Dragon - and additional hunting grounds, updated Dragon caves, and more exits/entrances throughout should make it more varied and dynamic.
+              </p>
+              <p>
+                Other work to note is this update are with Faction Dungeons and the Broken Finger Dungeon. These, too needed a bit of an update to fit them for PvP settings and for overall ease of use.
+              </p>
+             ===Map/Encounters===
              <ul>
-              <li>A</li>
+              <li>New Area: Dragon Coast
+                <ul>
+                  <li>Added new Dragon Coast with heavier spawns of younger dragons meant as a group challenge</li>
+                  <li>New dragon type Shadow Dragon, small chance to spawn on New Dragon Coast, also spawn on Nithhogr level</li>
+                  <li>One way entrance to new Dragon Coast through Fire Elemental Cave</li>
+                </ul>
+              </li>
+              <li>Updated Area: Dragon Caves
+                <ul>
+                  <li>Added extra loops in Dragon Caves, modified flow so it's less linear in nature with some less direct routes/side loops, added escape portals (on per level, one-way) back to previous level at various locations</li>
+                  <li>Dragon Eggs now have colors reflective of their parent dragon. This was a long time dream of FujiQ's from getting lost in here so often.</li>
+                </ul>
+              </li>
+              <li>Updated Area: Vinteruul's Fortress
+                <ul>
+                  <li>Warlord Vinteruul spawning mechanic has been readjusted, is now a summoned spawn using Talazarian Emblem, still requires quest in order to spawn</li>
+                  <li>Vinteruul now leashed to his room, similar to dragon bosses</li>
+                  <li>RNG on clicking horns and statue removed, this will be a single click per step, and he will spawn (statue will disappear for 10 minutes and may then be spawned again if you have the proper item)
+                    <ul>
+                      <li>Step 1.) Obtain an elusive Emblem from creatures within the dungeon</li>
+                      <li>Step 2.) Use the Bloody Altar to give an appropriate sacrifice.</li>
+                      <li>Step 3.) Click summoning horns.</li>
+                      <li>Step 4.) Click the Warlord Statue.</li>
+                      <li>Step 5.) Git Gud or die trying.</li>
+                    </ul>
+                    <li>The Lich Prince has moved into the Lotorian Dungeon with Warlord Vinteruul</li>
+                    <li>Added Talazarian Blood Cleric spawns around the Lich Prince's new room and above in Vinteruul's castle</li>
+                    <li>Secret exit/entrances added to this fortress</li>
+                    <li>Fix for being unable to progress on Lotorian faction quest if not on PvE server</li>
+                    <li>Added 5 new items to Warlord Vinteruul:
+                      <ul>
+                        <li>The Warlord's Severance</li>
+                        <li>The Warlord's Goring Helm</li>
+                        <li>The Warlord's Wall</li>
+                        <li>The Warlord's Essence</li>
+                        <li>Cultist's Bloody Orb</li>
+                      </ul>
+                    </li>
+                  </li>
+                </ul>
+                <li>Updated Area: Broken Finger Dungeon
+                  <ul>
+                    <li>Trigger spawn chances added/adjusted (similar to Asterion) for:
+                      <ul>
+                        <li>Mingor the Merciless</li>
+                        <li>Ragaxm the Destroyer</li>
+                        <li>Gorgor the Pit Fiend</li>
+                        <li>Lord Cerebus</li>
+                      </ul>
+                      <li>Broken Finger Dungeon changed to not require a party for entry/access to full dungeon (you may still need a friend or two to survive!)</li>
+                      <li>BFD pass countdown timer should suspend when player leaves the dungeon now (only uses when you are in hunting)</li>
+                    </li>
+                  </ul>
+                </li>
+                <li>Passages, Escapes, Tunnels
+                  <ul>
+                    <li>Added underground passage between Redwake and Rahura</li>
+                    <li>Removed evil spawn gate on Khafra island</li>
+                    <li>Added alternative passage from Rahura Water Elemental Cave to cross river to area before the gatekeeper; no longer a single bridge as a chokepoint</li>
+                    <li>Portal from Fire Elemental Cave (Khafra) to SE corner on New Dragon Coast, one-way, use at your own risk</li>
+                    <li>Added entrance/exits to Horned One (neutral faction dungeon) on charred island and dunk's dungeon</li>
+                    <li>Added entrance and/or exits in Ghost of Lotor (Talazarian Faction Dungeon) on Salamander and Crypt levels</li>
+                  </ul>
+                </li>
+                <li>Spawns
+                  <ul>
+                    <li>Increased amount of caimans to spawn (min/max limits)</li>
+                    <li>Added Desert Giant Noble as a rare spawn in Desert Giant spawns (split spawn)</li>
+                    <li>Added more dedicated Desert Giant Noble spawn locations</li>
+                    <li>Added Titan Scorpion spawns southeast of Rahura across the river</li>
+                    <li>Added/increased Titan Scorpion spawns in Blacktail's lair</li>
+                    <li>Increased chance of Sandsting spawning instead of placeholder</li>
+                    <li>Faster respawn for Lava Mold, randomized, no longer drops magical items</li>
+                    <li>Fixed several encounters that were despawning during an SI due to a config issue</li>
+                    <li>Fixed some mountains where creatures could spawn inside and get trapped (Josody/RT, TR/Snow Elves)</li>
+                    <li>Faster respawn timers and better randomized timers for:
+                      <ul>
+                        <li>Anbrasxas</li>
+                        <li>Der Schlaechter</li>
+                        <li>The Lich Prince</li>
+                        <li>Krank Bruut</li>
+                        <li>Ghost of Lotor I</li>
+                        <li>High Priest Volsey</li>
+                        <li>Crypt Protector Hobensnarl</li>
+                        <li>Sir Lancel</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </li>
+             </ul>
+             ===NPCs===
+             <ul>
+              <li>Ancient Crystal Wyverns and Mannabrottur are now tied to expansion flags, if Tides of Fate is disabled they will drop nothing</li>
+              <li>Dragon NPC resistance adjusts (each dragon now has one magery resist that they are weaker against)</li>
+              <li>BFD/Talazarian/Lotorian dungeon creature difficulty slightly increased by scaling hitpoints upwards to better match Asterion Minos</li>
+              <li>Caimans changed to land creatures</li>
+              <li>New Item Summoned Followers - Bloo Cleric, Crypt Guardian</li>
+              <li>Vessel of Isos now has 0 hitpoint regen and does not damage player</li>
+              <li>Removed Valinor Orb Reset limits</li>
+              <li>Removed Bonesnarl killcount limit</li>
+              <li>Town Guardian reduced to solo/duo difficulty, he's now basically a difficult guard</li>
+              <li>Minor mechanics adjustments to Sir Lancel (Attack Range, Pounce), Crypt Protector Hobensnarl(Ethereal), High Priest Volsey(New Spells), Krank Bruut(Teleport), Der Schlaechter(Knockback), The Lich Prince(New Spells)</li>
+              <li>Artoniah Hassassin removed Disease resistance</li>
+              <li>Adjusted Dragon Heal to have a low/medium/high replenish amount instead of just low/high, resulting in less chance of a high 50% heal</li>
+              <li>Sand Golem, Desert Giant, Desert Giant Noble all lost their MIND(resistance)</li>
+              <li>Sand Golem gained 50% Nature and 80% Soul resistance</li>
+              <li>Guards in SoC received some survival training</li>
+              <li>Set type of crabs to be vermin instead of sea creatures (if swim type, sea creature, if land, not a sea creature)</li>
+              <li>Added reindeer to animal group for DTM counts</li>
+              <li>Removed solo tag for Small Skeleton</li>
+              <li>Removed social tag from Minos since they have no allied types</li>
+             </ul>
+             ===Loot Tables===
+             <ul>
+              <li>Removed Generic Mainlands loot tables from many SoC creatures, added their respective SoC tables in some cases as it was missing</li>
+              <li>Adjusted boss tables in BFD and Faction dungeons to reflect their shorter respawn times, removed useless items (Mainlands tables)</li>
+              <li>Removed generic Mainlands loot tables from all Faction Dungeon creatures (excluding Salamanders/Basilisks area of Talazarian cave)</li>
+              <li>Removed generic Mainlands loot tables from BFD creatures</li>
+              <li>Claws of Overwhelming Darkness and Virulent Axe removed from tables used in SoC/Faction Dungeons, instead added to ToF/110 bosses</li>
+              <li>Scroll of the Ancients no longer drops from Ghost of Lotor I</li>
+              <li>Amulet of the Dark Mage removed from Nithhogr and added to Young Dragon tables</li>
+              <li>Faction dungeon creatures have a chance to drop all pieces of armor sets within the dungeons, mini bosses drop at a much higher rate</li>
+              <li>Neutral dungeon rates reduced considerably on Level 1 for legacy Horned One items</li>
+              <li>Ghost of Lotor I and Warlord Vinteruul have new powerful items as a rare drop</li>
+              <li>Raised rates of Rune Armor on hell monsters</li>
+              <li>Added Rune Armor loot table to Lord Tserith</li>
+              <li>Slight increase to Fresh Mead rates in Frieda Dungeon</li>
+              <li>Increased Beekeeper rare table on Queen and Warriors, reduced common tables inversely</li>
+              <li>Slightly increased Caiman Teeth drop count to 1-2 at a time</li>
+              <li>Sand Wurms are still just as annoying, but now drop Mystic Orbs and Magic Skinning Knife in their new loot table</li>
+              <li>Added 5 new items to Warlord Vinteruul:
+                <ul>
+                  <li>The Warlord's Severance</li>
+                  <li>The Warlord's Goring Helm</li>
+                  <li>The Warlord's Wall</li>
+                  <li>The Warlord's Essence</li>
+                  <li>Cultist's Bloody Orb</li>
+                </ul> 
+              </li>
+              <li>Added 4 new items to Ghost of Lotor I:
+                <ul>
+                  <li>Lotor's Battle Crown</li>
+                  <li>Ancestral Robe of Lotor</li>
+                  <li>Lotor's Wedding Ring</li>
+                  <li>Lotor's Summoning Crystal</li>
+                </ul>
+              </li>
+              <li>Added/increased runes dropped for:
+                <ul>
+                  <li>Vicarious Lotor</li>
+                  <li>Talazarian Blood Cleric</li>
+                  <li>Sand Golem</li>
+                  <li>Sand Wurm</li>
+                </ul>
+              </li>
+             </ul>
+             ===Spells===
+             <ul>
+              <li>Adjusted buff spells to have increased rune charge costs per cast but significantly lower fail chances if player has appropriate skill requirement</li>
+              <li>Nullify changed to a 1 rune spell and reduced cast difficulty substantially</li>
+              <li>Slightly reduced 8 slot spell damage boost from Northern Cleric's Staff, Northern Wizard's Staff, Staff of Prismatic Waves</li>
+              <li>Reduced Int modifier on Ice Bolt and Capped Damage at 450</li>
+              <li>Added purple (A3) color to claw/exposure messages when they wear off for more visibility</li>
+              <li>6 New Scrolls that can cast a variety of class and tier based spells; these are on a trial basis for now and available through events</li>              
+             </ul>
+             ===Crafting===
+             <ul>
+              <li>Dragonian Skinning Knife:
+                <ul>
+                  <li>Requirement reduced to 80 Skinning</li>
+                  <li>Raised level req to 105</li>
+                  <li>Removed orb requirements</li>
+                  <li>NEW ART!</li>
+                </ul>              
+              </li>
+              <li>Blue Dragon Leather Set Bonus - Reduced Crafting Time Sewing/Weaving 25%, Allows crafting as if using a Runespire</li>
+              <li>Gold Dragon Leather Set Bonus - Reduced Crafting Time Leatherworking/Tanning 25%, Allows crafting as if using a Runespire</li>
+              <li>Green Dragon Leather Set Bonus - Reduced Crafting Time Carpentry/Milling 25%, Allows crafting as if using a Runespire</li>
+              <li>Red Dragon Leather Set Bonus - Reduced Crafting Time Forging/Smelting 25%, Allows crafting as if using a Runespire</li>
+              <li>Adjusted drop rates of lvl 100 craft materials up some (tangled, spectral, full metal)</li>
+              <li>Removed skinnable corpse from Greater Kudo</li>
+              <li>Tradeskill Taskmasters now require Tides of Fate expansion enabled on server</li>
+              <li>Apple Pie Slice tooltip said +2 Stam Regen (is +1)</li>
+              <li>Changed minimum Skinning skill level requirement on the Following
+                <ul>
+                  <li>Wyverns 55</li>
+                  <li>Salamanders 65</li>
+                  <li>Dragons 80</li>
+                </ul>
+              </li>
+              <li>Adjusted cost of vellum/scrolls and inks down</li>
+              <li>Marked scrolls as books, set up scroll case to hold books</li>
+              <li>Added scroll case and scholar's trunk for carpentry:
+                <ul>
+                  <li>Level 43 and 8 enchanted heartwood</li>
+                  <li>Level 69 and 15 enchanted Greater Heartwood</li>
+                  <li>Holds books and scrolls
+                    <ul>
+                      <li>Quest Scrolls</li>
+                      <li>Return Scrolls</li>
+                      <li>Demon Scrolls</li>
+                      <li>Identification Scrolls</li>
+                    </ul>
+                  </li>
+                </ul>
+                
+              </li>
+              <li>Lobster Traps used from land have smaller distance to prevent player from placeing it where they cannot retrieve it</li>
+              <li>NPC Basil in Parian will sell you a sharp shovel for 100 black pearls if you have completed required quest stage</li>
+              <li>Sharp Shovel now requires quest stage completion to use (the stage it is obtained originally)</li>
+             </ul>
+             ===Items===
+             <ul>
+              <li>Re-enabled and adjusted Scroll of the Demon Horde - now also drops outide of ToF</li>
+              <li>Item expansion flag changed for Soothsayer, AGB and HotAG from TOF to SoC</li>
+              <li>Complete rework of Dragon Leather sets, now beter match their parent dragon resistances</li>
+              <li>Compelte rework of Spore Crusted set, now grants hitpoint regeneration on each piece (req Level 100, 45 DEX, 30 CON)</li>
+              <li>Complete rework of Scavenger Bone set, now useful for mages (req Level 100, 70 INT, 30 CON)</li>
+              <li>Corrected item hitpoints for Salamander Skin Leggings</li>
+              <li>Titan Hide set slightly reduced in overall stats to reflect its challenge to obtain</li>
+              <li>Large Gold Coin drop from Desert Giant Nobles made stackable to be kinder to your inventory slots</li>
+              <li>Leather Collar/Chain Collar/Iron Collar not marked as Jewelry for purposes of fitting into jewelry case</li>
+              <li>Corrected tooltip on Dagger of Fleeting thoughts (+15 Dodge/Crit Hit)</li>
+              <li>Adjusted some SoC quest reward items based on quest difficulty/level: 
+                <ul>
+                    <li>Ring of Fire Req reduced to 105, +5% Body</li>
+                    <li>Strange Glowing Gem +4% Pierce</li>
+                    <li>Brimidian Miners Ring +10 Mining, +10 Lumberjacking</li>
+                    <li>Palm Woven Gloves +4 All Stats, +3% pierce</li>
+                    <li>Woven Sand Wurm Glands +15% Disease, +10 Sewing, +0% Poison Resist</li>
+                    <li>Scarf of Nachup +7 all Stats, +5% pierce</li>
+                </ul>
+              </li>
+              <li>Added several new weapon proc effects:
+                <ul>
+                  <li>Dragonspirit Blade vs Elementals Base DEX + Total STR</li>
+                  <li>Superior Composite Bow vs Dragons Base DEX + Base CON + Total DEX</li>
+                  <li>Devastating Ice Pick vs Minotaurs Base DEX + Total STR</li>
+                  <li>Greatsword of the Wurm vs Humanoids Base DEX + Total STR</li>
+                  <li>Dragon Tooth Axe vs Demons Base DEX + Total STR</li>
+                  <li>Darken Shivbow vs Giants Base DEX + Base STR + Total CON</li>
+                  <li>Pentapiercer Crossbow Base DEX + Base CON + Total DEX</li>
+                  <li>Whirlwind Shot Base DEX + Base CON + Total DEX</li>
+                  <li>Dagger of Hiding Base DEX + Base CON + Total DEX</li>
+                  <li>Axe of the Knightcaster Base DEX + Base INT + Total STR</li>
+                  <li>The Warlord's Severance Base DEX + Base CON + Total STR</li>
+                </ul>
+              </li>
+              <li>Adjustment to Procs on:
+                <ul>
+                  <li>Gorehammer slightly increased chance</li>
+                  <li>Mystical Minotaur Axe increased damage on high roll</li>
+                </ul>
+              </li>
+              <li>Level requirement reduced to 108 for:
+                <ul>
+                  <li>Eternium Belt</li>
+                  <li>Eternium Boots</li>
+                  <li>Eternium Full Plate</li>
+                  <li>Eternium Gloves</li>
+                  <li>Eternium Greaves</li>
+                  <li>Eternium Helm</li>
+                  <li>Eternium Shield</li>
+                  <li>Eternium Thread Cape</li>
+                  <li>Eternium Shield</li>
+                  <li>Gauntlets of Faboo</li>
+                  <li>Band of Tserith's Chosen</li>
+                  <li>Dunkelklinge's Bane</li>
+                  <li>Locket of Evil Emanations</li>
+                  <li>Fighter's Collar</li>
+                  <li>Forged Gloves of Might</li>
+                  <li>Totem of Sabal's Children</li>
+                </ul>
+              </li>
+              <li>Level requirement reduced to 106 for:
+                <ul>
+                  <li>Tome of Demonic Inspiration</li>
+                  <li>Tome of Perserverence</li>
+                  <li>Tome of Wild Magic</li>
+                  <li>Tome of Maniacal Thoughts</li>
+                </ul>
+              </li>
+              <li>Level requirement removed:
+                <ul>
+                  <li>Sandals of the Fleet</li>
+                </ul>
+              </li>
+              <li>Attribute/skill requirements changed:
+                <ul>
+                  <li>Icehammer 70 Dex / 70 INT</li>
+                  <li>Demon Gem 0 DEX</li>
+                  <li>Bow of Havok reduced to 70 DEX</li>
+                  <li>Cursestriker reduced to 75 DEX</li>
+                  <li>Blood Drain Dagger 100 Small Blades</li>
+                </ul>
+              </li>
+              <li>Item Stats changed: (+/- modifier indicates new value, for some stats/items this is a net loss)
+                <ul>
+                  <li>Weapons:
+                    <ul>
+                      <li>Mace of Sacrifice +0 STR +0 DEX</li>
+                      <li>Twisted Mace of Affliction To Hit raised to +35, Added +100% Pierce damage</li>
+                      <li>Greatsword of the Wurm added +100% Disease damage</li>
+                      <li>Pentapiercer Crossbow added +10 Critical Hit</li>
+                      <li>Darken Shivbow Added +10 Double Attack</li>
+                      <li>Staff of the Cold Hand added +100% Magic Missile damage</li>
+                    </ul>
+                  </li>
+                  <li>Amulets:
+                    <ul>
+                      <li>Mark of Minos +10% Pierce</li>
+                      <li>Warding Amulet of the North +7% Pierce, +7% Nature, +7% Soul +7% Mind, +7% Body</li>
+                    </ul>
+                  </li>
+                  <li>Boots:
+                    <ul>
+                      <li>Eternium Boots +2.5 Movement Speed </li>
+                    </ul>
+                  </li>
+                  <li>Leggings:
+                    <ul>
+                      <li>Coral Crusted Greaves +10% Soul</li>
+                    </ul>
+                  </li>
+                  <li>Rings:
+                    <ul>
+                      <li>Ring of Darkness +7% Soul</li>
+                      <li>Demon Gem +4% Nature</li>
+                      <li>Ring of the Demons +5% Blunt, +5% Pierce</li>
+                      <li>Band of the Sand +5% Blunt, +5% Pierce</li>
+                      <li>Wyvern's Eye +0% Arrow, +5% Nature, +5% Soul, +5% Mind, +5% Body, +0% Poison</li>
+                      <li>Inifinite Loop +8% Nature, +8% Soul, +8% Mind, +8% Body</li>
+                    </ul>
+                  </li>
+                  <li>Shields:
+                    <ul>
+                      <li>Book of the Seers +8% Soul, +8% Body, +8% Cut</li>
+                      <li>Book of Knowledge +1 Stamina Regen, +6% Blunt, +6% Poison, +6% Disease</li>
+                      <li>Shield of Fury +1 Stamina Regen</li>
+                      <li>Shield of the Sun +7% Body, +7% Soul</li>
+                      <li>Spiked Buckler of Health +7 All Stats</li>
+                      <li>Dragon Hide Shield removed orb reqs, +5% Nature, +5% Soul, +5% Mind, +5% Body</li>
+                    </ul>
+                  </li>
+                  <li>Torso:
+                    <ul>
+                      <li>Nature's Wrap 55 AC, +8% Nature, +8% Soul, +8% Mind</li>
+                      <li>Robe of the Unknown +7% Body</li>
+                    </ul>
+                  </li>
+                  <li>Sets:
+                    <ul>
+                      <li>Flame Reaver Set - Removed DEX bonuses, other item specific changes as below:
+                        <ul>
+                          <li>Flame Reaver Greaves 39 AC, +13 Str, +12 Int, +7 Con, +30 HP, +7% Blunt, +10% Body, +7% Poison, +10 Large Blades</li>
+                          <li>Flame Reaver Helm 29 AC, +12 Str, +14 Int, +7 Con, +30 HP, +0% Cut, +6% Blunt, +8% Nature, +10% Body, +7% Disease</li>
+                          <li>Flame Reaver Boots 30 AC, +25 HP, +0% Cut, +8% Blunt, +8% Arrow, +7% Soul</li>
+                          <li>Flame Reaver Belt 28 AC, +9 Str, +25 HP, +0% Blunt, +9% Pierce, +6% Soul, +7% Poison</li>
+                          <li>Flame Reaver Shield 70 AC, +18 Int, +6 Con, +50 HP, +0% Mind, +7% Disease, +10 Axes</li>
+                          <li>Flame Reaver Cape 32 AC, +5 Con, +30 HP, 8% Blunt, +7% Soul, +10% Poison</li>
+                          <li>Flame Reaver Gloves 32 AC, +10 Str, +7 Con, +35 HP, +10 Blunt Weapons</li>
+                          <li>Flame Reaver Tunic 50 AC, +20 Int, +8 Con, +50 HP, +10% Cut, +6% Arrow, +10% Magic Missile</li>
+                          <li>Flame Reaver Ring 14 AC, +8 Str, +7 Int, +4 Con, +25 HP, +0% Pierce, +6% Mind, +6% Poison</li>
+                          <li>Flame Reaver Pendant 18 AC, +13 Str, +10 Int, +4 Con, +30 HP, +0% Cut, +7% Disease</li>
+                        </ul>
+                      </li>
+                      <li>Lich Prince Set 
+                        <ul>
+                          <li>Helm of the Lich Prince 35 AC, +18 Int, +10 Critical Heal</li>
+                          <li>Robe of the Lich Prince 55 AC, +8 Str, +22 Int, +10 Con, +85 HP, +8% Cut, +10% Pierce, +8% Nature, +8% Body, +5 Critical Blast</li>
+                          <li>Gloves of the Lich Prince 30 AC, +7% Mind, +0% Soul, +10% Disease, +5 Block</li>
+                          <li>Ring of the Lich Prince +4 Str, +4 Dex</li>
+                          <li>Leggings of the Lich Prince 30 AC, +8 Str, +18 Int, +45 HP, +5 Block</li>
+                          <li>Grimoire of the Lich Prince 28 AC, +24 Int, +8% Cut, +8% Body, +10 All Magery Skills</li>
+                          <li>Boots of the Lich Prince 25 AC, +0 Str, +15 Int, +6 Con, +7% Blunt, +7% Pierce, +7% Mind, +9% Nature, +5 Dodge</li>
+                          <li>Sash of the Lich Prince 22 AC, +15 Int, +9% Blunt, +5 Critical Blast</li>
+                          <li>Cloak of the Lich Prince 32 AC, +7 Con, +5 Critical Heal</li>
+                          <li>Amulet of the Lich Prince 18 AC, +10% Cut, +9% Mind</li>
+                        </ul>
+                      </li>
+                      <li>Hardened Warden's Set - 
+                        <ul>
+                          <li>Hardened Warden's Tunic 45 AC, +8 Dex, +8 Con, +45 HP</li>
+                          <li>Hardened Warden's Trousers 26 AC, +16 Int, +8 Dex, +8 Con, +40 HP, +5 Dodge</li>
+                          <li>Hardened Warden's Gloves 22 AC, +5 Str, +15 Int, +7 Con, +20 HP, +5 Block</li>
+                          <li>Hardened Warden's Belt 18 AC, +5 Str, +13 Int, +5 Dex, +9% Cut, +0% Soul, +5 Critical Blast</li>
+                          <li>Hardened Warden's Shield +50 HP, +8% Blunt, +10 All Magery Skills</li>
+                          <li>Hardened Warden's Cloak 24 AC, +5 Str, +15 Int, +35 HP</li>
+                          <li>Hardened Warden's Boots 21 AC</li>
+                          <li>Hardened Warden's Helm 23 AC, +16 Int, +8 Dex, +7 Con, +30 HP</li>
+                          <li>Ring of the Warden +5 Str, +5 Con, +25 HP, +6% Pierce, +6% Body, +6% Mind, +6% Poison</li>
+                          <li>Necklace of the Warden +6 Dex, +6 Con, +55 HP, +7% Mind</li>
+                        </ul>
+                      </li>
+                      <li>Sabaline Set - 
+                        <ul>
+                          <li>Sabaline Tunic 60 AC, +90 HP, +10% Disease</li>
+                          <li>Sabaline Leggings +55 HP, +10% Disease</li>
+                          <li>Sabaline Cap 36 AC, +20 Int, +35 HP, +5% Pierce</li>
+                          <li>Sabaline Belt +25 HP, +5% Cut</li>
+                          <li>Sabaline Cloak +30 HP, +5% Blunt</li>
+                          <li>Sabaline Gloves 31 AC, +35 HP, +5% Cut</li>
+                          <li>Sabaline Boots +16 Int, +30 HP</li>
+                        </ul>
+                      </li>
+                      <li>Titan hide Set - 
+                        <ul>
+                          <li>Titan Hide Boots 35 AC, +8 All Stats, 0% Cut</li>
+                          <li>Titan Hide Gloves 34 AC, 0% Cut</li>
+                          <li>Titan Hide Belt 32 AC, +8 All Stats, 0% Blunt</li>
+                          <li>Titan Hide Helm 38 AC, +9 All Stats, 0% Pierce</li>
+                          <li>Titan Hide Chest 60 AC, +10 All Stats, 0% Cut</li>
+                          <li>Titan Hide Legs 40 AC, +10 All Stats, 0% Pierce</li>
+                        </ul>
+                      </li>
+                      <li>Paladin of the Flame Set - 
+                        <ul>
+                          <li>Paladin of the Flame Belt +40 HP, +8% Nature</li>
+                          <li>Paladin of the Flame Boots +7% Blunt</li>
+                          <li>Paladin of the Flame Cloak +50 HP, +8% Blunt</li>
+                          <li>Paladin of the Flame Gauntlets +40 HP, +7% Body, +7% Blunt</li>
+                          <li>Paladin of the Flame Leggings +50 HP, +7% Blunt, +7% Body</li>
+                          <li>Paladin of the Flame Platemail +60 HP, +7% Soul</li>
+                        </ul>
+                      </li>
+                      <li>Minos Royal Set - 
+                        <ul>
+                          <li>Minos Royal Belt +8% Body</li>
+                          <li>Minos Cape of Royalty +7% Pierce</li>
+                          <li>Minos Royal Gauntlets +13 Con, +8% Mind</li>
+                          <li>Minos Royal Pants +7% Cut, +7% Mind</li>
+                          <li>Minos Royal Tunic +8% Mind</li>
+                        </ul>
+                      </li>
+                      <li>Eagle Eye Order Set - 
+                        <ul>
+                          <li>Amulet of Eagle Eye Order +8 Int</li>
+                          <li>Girdle of the Eagle Eye Order +6 Int</li>
+                          <li>Boots of Eagle Eye Order +7 Int</li>
+                          <li>Cloak of Eagle Eye Order +8 Int</li>
+                          <li>Gloves of Eagle Eye Order +6 Int</li>
+                          <li>Helm of Eagle Eye Order +9 Int</li>
+                          <li>Greaves of Eagle Eye Order +9 Int</li>
+                          <li>Ring of Eagle Eye Order +5 Int</li>
+                          <li>Plate of Eagle Eye Order +10 Int</li>
+                        </ul>
+                      </li>
+                      <li>Holy Order set - 
+                        <ul>
+                          <li>Holy Order Amulet 19 AC, +6% Cut, +7% Nature</li>
+                          <li>Holy Order Belt +8% Nature</li>
+                          <li>Holy Order Gloves +8 Int, +7% Mind</li>
+                          <li>Holy Order Cap +8 Int, +7% Cut, +7% Soul</li>
+                          <li>Holy Order Leggings +8 Int</li>
+                          <li>Holy Order Essence +9 Str, +5 Dex</li>
+                          <li>Holy Order Signum +6% Blunt, +6% Nature</li>
+                        </ul>
+                      </li>
+                      <li>Minotaur Skin Set - 
+                        <ul>
+                          <li>Minotaur Skin Belt +6% Cut, +6% Body</li>
+                          <li>Minotaur Skin Boots +7% Pierce</li>
+                          <li>Minotaur Skin Cape +7% Cut</li>
+                          <li>Minotaur Skin Gloves +7% Cut</li>
+                          <li>Minotaur Skin Leggings +8% Arrow</li>
+                          <li>Minotaur Skin Tunic +7% Soul</li>
+                        </ul>
+                      </li>
+                      <li>Holy Arda Set - 
+                        <ul>
+                          <li>Holy Gloves of Arda +8% Blunt</li>
+                          <li>Holy Helm of Arda +7% Blunt</li>
+                          <li>Holy Leggings of Arda +7% Body</li>
+                          <li>Holy Shield of Arda +8% Blunt, +8% Nature</li>
+                          <li>Holy Armor of Arda +8% Blunt</li>
+                        </ul>
+                      </li>
+                      <li>Unholy Redwake Set - 
+                        <ul>
+                          <li>Unholy Boots of Redwake +6% Blunt</li>
+                          <li>Unholy Cape of Redwake +6% Blunt</li>
+                          <li>Unholy Gloves of Redwake +6% Soul</li>
+                          <li>Unholy Helm of Redwake +7% Cut</li>
+                          <li>Unholy Greaves of Redwake +7% Mind</li>
+                          <li>Unholy Plate of Redwake +8% Arrow</li>
+                        </ul>
+                      </li>
+                      <li>Dragon Scale Set - 
+                        <ul>
+                          <li>Dragon Scale Necklace +8% Pierce</li>
+                          <li>Dragon Scale Belt +6% Pierce</li>
+                          <li>Dragon Skin Cape +7% Mind, +7% Magic Missile</li>
+                          <li>Dragon Scale Gloves +8% Cut, +6% Nature</li>
+                          <li>Dragon Scale Helm +6% Mind</li>
+                          <li>Dragon Scale Greaves +6% Soul</li>
+                        </ul>
+                      </li>
+                      <li>Blood Soaked Set - 
+                        <ul>
+                          <li>Blood Soaked Belt +5% Cut</li>
+                          <li>Blood Soaked Boots +5 Str, +10 Con, +5% Pierce</li>
+                          <li>Blood Soaked Cape +8 Str</li>
+                          <li>Blood Soaked Gloves +5% Cut, +5% Nature</li>
+                          <li>Blood Soaked Helm +5% Body, +5% Pierce</li>
+                          <li>Blood Soaked Leggings +5% Blunt, +5% Cut, +5% Body</li>
+                          <li>Blood Soaked Plate +6% Body</li>
+                        </ul>
+                      </li>
+                      <li>Knightcaster Set - 
+                        <ul>
+                          <li>Boots of the Knightcaster +5% Cut</li>
+                          <li>Helm of the Knightcaster +7% Mind, +7% Soul</li>
+                          <li>Leggings of the Knightcaster +9% Blunt, +6% Nature</li>
+                          <li>Ring of the Knightcaster +5% Cut, +5% Disease</li>
+                        </ul>
+                      </li>
+                      <li>Bloodletter Set - 
+                        <ul>
+                          <li>Buckle of the Bloodletter +5% Pierce, +5% Cut</li>
+                          <li>Bloodletter Cloak +6% Blunt, +6% Nature, +6% Body</li>
+                        </ul>
+                      </li>
+                      <li>Rahura Set - Req Player Level 100, 70 INT
+                        <ul>
+                          <li>Hood of Rahura +5 Str, +7 Con, +6% Blunt, +7% Cut, +5% Arrow, +6% Soul, +6% Mind</li>
+                          <li>Cloak of Rahura +5 Str, +10 Int, +7% Cut, +6% Soul, +6% Mind, +10% Poison</li>
+                          <li>Robe of Rahura +5 Str, +18 Int, +75 HP, +6% Blunt, +7% Cut, +6% Soul, +6% Mind, +10% Poison</li>
+                        </ul>
+                      </li>
+                      <li>Khafra Set - Req Player Level 100, 70 INT
+                        <ul>
+                          <li>Hood of Khafra +5 Dex, +7 Con, +6% Cut, +6% Nature, +6% Body, +10% Disease</li>
+                          <li>Cloak of Khafra +10 Int, +5 Dex, +7% Pierce, +6% Nature, +6% Body</li>
+                          <li>Robe of Khafra +18 Int, +5 Dex, +75 HP, +7% Pierce, +6% Cut, +6% Nature, +0% Soul, +0% Mind, +6% Body, +10% Disease</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <li>Dragon Leather sets readjusted to give resistances more in line with on their parent dragon type. Stats adjusted to match below. No longer orb specific, requirement changed to level 105 to allow for better stat/resistance progression. AC/stats normalized across the sets.
+                      <ul>
+                        <li>Bascinet/Helm 32 AC +10 Str +10 Int +10 Dex +6 Con</li>
+                        <li>Belt 30 AC +10 Str +8 Int +10 Dex +6 Con</li>
+                        <li>Boots 32 AC +8 Str +8 Int +8 Dex +6 Con</li>
+                        <li>Cape 36 AC +8 Str +8 Int +8 Dex +6 Con</li>
+                        <li>Gauntlets 28 AC +10 Str +10 Int +10 Dex +6 Con</li>
+                        <li>Leggings/Greaves 44 AC +10 Str +10 Int +10 Dex +6 Con</li>
+                        <li>Lorica/Breastplate 64 AC +12 Str +12 Int +12 Dex +6 Con</li>
+                        <li>Shield 74 AC +10 Str +10 Int +10 Dex +6 Con</li>
+                        <li>Blue Dragon Leather 4% Blunt, 7% Pierce, -2% Cut, 3% Arrow, 4% Nature, 4% Soul, 9% Mind, 2% Body, -2% Poison</li>
+                        <li>Gold Dragon Leather -2% Blunt, 4% Pierce, 7% Cut, 3% Arrow, 2% Nature, 9% Soul, 4% Mind, 4% Body, -2% Disease</li>
+                        <li>Green Dragon Leather 7% Blunt, -2% Pierce, 4% Cut, 3% Arrow, 9% Nature, 2% Soul, 4% Mind, 4% Body, -2% Disease</li>
+                        <li>Red Dragon Leather 4% Blunt, 5% Cut, 3% Arrow, 4% Nature, 4% Soul, 2% Mind, 9% Body, -2% Poison</li>
+                      </ul>
+                    </li>
+                  </li>
+                </ul>
+              </li>
+             </ul>
+             ===Events===
+             <ul>
+              <li>New Event: The Gauntlet!
+                <ul>
+                  <li>Make your way unarmed and without aid through a maze of increasingly deadly creatures (no equipment, no backpack, no buffs, no followers).</li>
+                  <li>Entry at this time is free with a manual GM reward; will be automated in future with enough play/feedback from the community.</li>
+                  <li>When the event is on, head to Parian South Weapons shop to speak with NPC Armsmaster to enter. A deck, signs and banners marks this event area.</li>
+                  <li>1 player in event at a time</li>
+                  <li>Limit of 10 minutes in event</li>
+                  <li>Entry restricted to level 50 only</li>
+                  <li>New GM tools to help GM run events be more enjoyable: Item Degrade and BP drop; also for emergencies when server is misbehaving</li>
+                </ul>
+              </li>
+             </ul>
+             ===Quests===
+             <ul>
+              <li>New Quest and Gear: Crystal Knight (Farstead Keep) inspired by DC creatures
+                <ul>
+                  <li>Weeping Winter (mage)</li>
+                  <li>Shalox’s Armor (warrior)</li>
+                  <li>Wolfskin Armor (archer)</li>
+                  <li>You may obtain any pieces by trading with quest NPC “Crystal Knight” who will list item level and stat requirements</li>
+                  <li>Quest gives limited quantity of Runes of Shalox; these can also be found naturally hunting in TR at uncommon rates from variety of mobs</li>
+                </ul>
+              </li>
+              <li>Increased range to allow quest update when killing Termigon queen for Varios quest</li>
+              <li>Fix for print in rock troll quest - says you have to be level 15, should be 65 (checks correctly just tells player wrong number)</li>
+              <li>Excluded a few CK creatures (wolverine pack leaders, mystic crawlers)</li>
+              <li>Reduced faction quest switch wait time and neutral faction garden of sitting on one's bottom time to 10 min</li>
+             </ul>
+             ===PVP & Reputation
+             <ul>
+              <li>Feats now count as attacks for combat rule purposes (will make you wanted, slow both players)</li>
+              <li>Added level bias to alignment gain >=5 levels.</li>
+              <li>New NPC Alinus in Parian to give one time reputation forgiveness from >6500 -> 6500 (alignment # can be checked with lvl 1 mind spell “Runesight”)</li>
+              <li>Reputation loss when going wanted changed from 250 > 5 points</li>
+              <li>Wanted timer is 5 minutes and  refreshes when any criminal action is performed</li>
+              <li>Looting items results in loss of 50 rep per item (no per item loss previously)</li>
+              <li>Helpful spells (healing, heal over time) cast on wanted player will cause you to become wanted as well</li>
+              <li>Please see Discord for complete pvp ruleset write up</li>
+              <li>Players cannot mark a stolen item as no drop using token store product; if you have stolen items stuck in bp please summon a GM/page or make a ticket</li>
+             </ul>
+             ===The Junk Drawer===
+             <ul>
+              <li>Removed leadership check of 100 from wild camel (should be 70)</li>
+              <li>Cooldown of Spawn Increase of 30 min</li>
+              <li>New NPC Alinus to give one time align forgiveness</li>
+              <li>Changed chances on ancient wyverns to give mix of immaculate wyv hide (unchanged rate) sinew (decreased rate from previous) and other hides (added to this skinning table)</li>
+              <li>Mainlands orb reset (1x only) Lady Esler in Josody</li>
+              <li>Construction expansion check on Surveyor Tool. If not enabled on server, will be unable to use.</li>
+              <li>Bonus XP for L server 110 is set to rate of 106-109 (double). Enjoy! </li>
              </ul>
              <p>
               
