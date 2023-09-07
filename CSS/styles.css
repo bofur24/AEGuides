@@ -260,6 +260,10 @@ a.article:hover {
 .num-color-red {
     color: #FF0000;
 }
+
+.num-color-green {
+    color: #00bb00;
+}
 .top-margin {
     margin-top: 65px;
 }
