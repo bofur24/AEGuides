@@ -117,6 +117,10 @@ hr {
     
 }
 
+.btn-dark {
+    margin-right: 10px;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -255,6 +259,10 @@ a.article:hover {
 
 .num-color-red {
     color: #FF0000;
+}
+
+.num-color-green {
+    color: #00bb00;
 }
 .top-margin {
     margin-top: 65px;
@@ -658,6 +666,10 @@ div.card-body li {
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .btn-dark {
+        margin-top: 10px;
     }
 
 }
